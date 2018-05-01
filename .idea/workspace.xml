@@ -1,0 +1,1467 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
+    <generated>
+      <config projectName="UC" targetName="example_sort" />
+      <config projectName="UC" targetName="example_shm2" />
+      <config projectName="UC" targetName="example_shm1" />
+      <config projectName="UC" targetName="example_d_heap" />
+      <config projectName="UC" targetName="main" />
+      <config projectName="UC" targetName="example_unlockqueue" />
+      <config projectName="UC" targetName="example_graph" />
+      <config projectName="UC" targetName="example_consistent_hash" />
+      <config projectName="UC" targetName="example_redis_test" />
+      <config projectName="UC" targetName="example_thread_epoll1" />
+      <config projectName="UC" targetName="example_pthread1" />
+      <config projectName="UC" targetName="example_test" />
+      <config projectName="UC" targetName="example_binary_tree2" />
+      <config projectName="UC" targetName="example_binary_tree_adt" />
+      <config projectName="UC" targetName="example_check_alot_server3" />
+      <config projectName="UC" targetName="example_check_alot_server2" />
+      <config projectName="UC" targetName="example_binary_tree_avl" />
+      <config projectName="UC" targetName="example_morse" />
+      <config projectName="UC" targetName="example_huffman" />
+      <config projectName="UC" targetName="example_hashtable" />
+      <config projectName="UC" targetName="example_mem_pool" />
+      <config projectName="UC" targetName="example_heapsort" />
+      <config projectName="UC" targetName="example_sem1" />
+      <config projectName="UC" targetName="example_heap" />
+      <config projectName="UC" targetName="example_digraph" />
+      <config projectName="UC" targetName="example_shm_hashtable2" />
+      <config projectName="UC" targetName="example_shm_hashtable1" />
+      <config projectName="UC" targetName="example_binary_tree" />
+      <config projectName="UC" targetName="example_mmap1" />
+      <config projectName="UC" targetName="example_hashtable3" />
+      <config projectName="UC" targetName="example_hashtable2" />
+      <config projectName="UC" targetName="example_socket1" />
+      <config projectName="UC" targetName="example_pthread_cond1" />
+      <config projectName="UC" targetName="example_thread_pool" />
+      <config projectName="UC" targetName="example_list1" />
+      <config projectName="UC" targetName="example_jingqun" />
+      <config projectName="UC" targetName="example_quicksort" />
+      <config projectName="UC" targetName="example_bitalgorithm" />
+      <config projectName="UC" targetName="example_binarysearch" />
+    </generated>
+  </component>
+  <component name="CMakeSettings" AUTO_RELOAD="true">
+    <configurations>
+      <configuration CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a49f9158-8de8-4d30-8765-695fde6357e4" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="UC" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="10" column="9" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="54" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="example_hashtable2.cpp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/example_hashtable2.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="140">
+              <caret line="131" column="36" lean-forward="false" selection-start-line="131" selection-start-column="36" selection-end-line="131" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="example_digraph.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/example_digraph.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1300">
+              <caret line="65" column="5" lean-forward="false" selection-start-line="65" selection-start-column="5" selection-end-line="65" selection-end-column="5" />
+              <folding>
+                <element signature="e#38#53#0" expanded="true" />
+                <element signature="e#197#216#0" expanded="true" />
+                <element signature="e#673#692#0" expanded="true" />
+                <element signature="e#795#814#0" expanded="true" />
+                <element signature="e#1291#1310#0" expanded="true" />
+                <element signature="e#1739#1758#0" expanded="true" />
+                <element signature="e#2173#2192#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="example_graph.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/example_graph.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1160">
+              <caret line="58" column="5" lean-forward="false" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
+              <folding>
+                <element signature="e#39#56#0" expanded="true" />
+                <element signature="e#107#126#0" expanded="true" />
+                <element signature="e#669#688#0" expanded="true" />
+                <element signature="e#786#805#0" expanded="true" />
+                <element signature="e#1741#1760#0" expanded="true" />
+                <element signature="e#2311#2330#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="coroutine.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/coroutine.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="example_test.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/example_test.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="example_sort.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/example_sort.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2460">
+              <caret line="123" column="5" lean-forward="false" selection-start-line="123" selection-start-column="5" selection-end-line="123" selection-end-column="5" />
+              <folding>
+                <element signature="e#38#56#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="720">
+              <caret line="36" column="27" lean-forward="false" selection-start-line="36" selection-start-column="27" selection-end-line="36" selection-end-column="27" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="example_thread_epoll1.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/example_thread_epoll1.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="example_redis_test.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/example_redis_test.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>PRIMER_TABLE_LEN</find>
+      <find>PRIMER_TABLE</find>
+      <find>thread_step</find>
+      <find>getPos</find>
+      <find>currentSize</find>
+      <find>status</find>
+      <find>pthread_handle_message</find>
+      <find>redisAsyncDisconnect</find>
+      <find>hashFn</find>
+      <find>queue_ready</find>
+      <find>queue_lock</find>
+      <find>threadid</find>
+      <find>epoll_event</find>
+      <find>wait</find>
+      <find>ind</find>
+      <find>coroute_body</find>
+      <find>ret</find>
+      <find>delNode</find>
+      <find>Xpool_block</find>
+      <find>pPrev</find>
+      <find>blockCountStep</find>
+      <find>E</find>
+      <find>EPOLL_C</find>
+      <find>EPOLL_CTL</find>
+      <find>EPOLL_CTL_D</find>
+      <find>EPOLL_CTL_</find>
+      <find>EPOLL_CT</find>
+      <find>EPOLL_CTL_DEL</find>
+      <find>depthFirstSearchAux</find>
+      <find>predLabel</find>
+    </findStrings>
+  </component>
+  <component name="GotoClassSymbolConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="$XSLT" />
+      <filtered-out-file-type name="ASM" />
+      <filtered-out-file-type name="Apple JS" />
+      <filtered-out-file-type name="CMake" />
+      <filtered-out-file-type name="CMakeCache" />
+      <filtered-out-file-type name="CSS" />
+      <filtered-out-file-type name="CoffeeScript" />
+      <filtered-out-file-type name="CoffeeScriptLiterate" />
+      <filtered-out-file-type name="CommandLine" />
+      <filtered-out-file-type name="DTD" />
+      <filtered-out-file-type name="Doxygen" />
+      <filtered-out-file-type name="ECMA Script Level 4" />
+      <filtered-out-file-type name="ECMAScript 6" />
+      <filtered-out-file-type name="Flow JS" />
+      <filtered-out-file-type name="GDB" />
+      <filtered-out-file-type name="GWT JavaScript" />
+      <filtered-out-file-type name="HTML" />
+      <filtered-out-file-type name="JQL" />
+      <filtered-out-file-type name="JQuery-CSS" />
+      <filtered-out-file-type name="JSON" />
+      <filtered-out-file-type name="JSRegexp" />
+      <filtered-out-file-type name="JSX Harmony" />
+      <filtered-out-file-type name="JavaScript" />
+      <filtered-out-file-type name="JavaScript 1.5" />
+      <filtered-out-file-type name="JavaScript 1.6" />
+      <filtered-out-file-type name="JavaScript 1.7" />
+      <filtered-out-file-type name="JavaScript 1.8" />
+      <filtered-out-file-type name="LESS" />
+      <filtered-out-file-type name="LLDB" />
+      <filtered-out-file-type name="ModuleMap" />
+      <filtered-out-file-type name="Nashorn JS" />
+      <filtered-out-file-type name="ObjectiveC" />
+      <filtered-out-file-type name="Python" />
+      <filtered-out-file-type name="RELAX-NG" />
+      <filtered-out-file-type name="RegExp" />
+      <filtered-out-file-type name="SASS" />
+      <filtered-out-file-type name="SCSS" />
+      <filtered-out-file-type name="Stylus" />
+      <filtered-out-file-type name="TEXT" />
+      <filtered-out-file-type name="TypeScript" />
+      <filtered-out-file-type name="TypeScript JSX" />
+      <filtered-out-file-type name="XHTML" />
+      <filtered-out-file-type name="XML" />
+      <filtered-out-file-type name="XPath" />
+      <filtered-out-file-type name="XPath2" />
+      <filtered-out-file-type name="YouTrack" />
+      <filtered-out-file-type name="yaml" />
+    </file-type-list>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/example_shm1.cpp" />
+        <option value="$PROJECT_DIR$/example_mmap.cpp" />
+        <option value="$PROJECT_DIR$/example_hashtable.cpp" />
+        <option value="$PROJECT_DIR$/example_jingqun2.cpp" />
+        <option value="$PROJECT_DIR$/example_jingqun.cpp" />
+        <option value="$PROJECT_DIR$/example_hashtable2.cpp" />
+        <option value="$PROJECT_DIR$/example_shm_hashtable1.cpp" />
+        <option value="$PROJECT_DIR$/example_hashtable3.cpp" />
+        <option value="$PROJECT_DIR$/example_shm_hashtable2.cpp" />
+        <option value="$PROJECT_DIR$/example_quicksort.cpp" />
+        <option value="$PROJECT_DIR$/example_socket1.cpp" />
+        <option value="$PROJECT_DIR$/pthread1.cpp" />
+        <option value="$PROJECT_DIR$/example_sem1.cpp" />
+        <option value="$PROJECT_DIR$/example_pthread1.cpp" />
+        <option value="$PROJECT_DIR$/example_list1.cpp" />
+        <option value="$PROJECT_DIR$/example_bitalgorithm.cpp" />
+        <option value="$PROJECT_DIR$/example_thread_epoll.cpp" />
+        <option value="$PROJECT_DIR$/example_thread_epoll1.cpp" />
+        <option value="$PROJECT_DIR$/example_pthread_cond.cpp" />
+        <option value="$PROJECT_DIR$/binary_tree.cpp" />
+        <option value="$PROJECT_DIR$/example_binarysearch.cpp" />
+        <option value="$PROJECT_DIR$/example_binary_tree2.cpp" />
+        <option value="$PROJECT_DIR$/example_binary_tree_adt.cpp" />
+        <option value="$PROJECT_DIR$/example_redis_test.cpp" />
+        <option value="$PROJECT_DIR$/example_heap.c" />
+        <option value="$PROJECT_DIR$/example_binary_tree.cpp" />
+        <option value="$PROJECT_DIR$/example_binary_tree_avl.cpp" />
+        <option value="$PROJECT_DIR$/example_left_heap.cpp" />
+        <option value="$PROJECT_DIR$/example_check_alot_server.cpp" />
+        <option value="$PROJECT_DIR$/example_test.cpp" />
+        <option value="$PROJECT_DIR$/coroutine.cpp" />
+        <option value="$PROJECT_DIR$/example_check_alot_server2.cpp" />
+        <option value="$PROJECT_DIR$/example_check_alot_server3.cpp" />
+        <option value="$PROJECT_DIR$/example_heapsort.cpp" />
+        <option value="$PROJECT_DIR$/example_heap.cpp" />
+        <option value="$PROJECT_DIR$/example_sort.cpp" />
+        <option value="$PROJECT_DIR$/example_thread_pool.cpp" />
+        <option value="$PROJECT_DIR$/example_mem_pool.cpp" />
+        <option value="$PROJECT_DIR$/example_morse.cpp" />
+        <option value="$PROJECT_DIR$/unlockqueue.h" />
+        <option value="$PROJECT_DIR$/unlockqueue.cpp" />
+        <option value="$PROJECT_DIR$/example_unlockqueue.cpp" />
+        <option value="$PROJECT_DIR$/example_huffman.cpp" />
+        <option value="$PROJECT_DIR$/main.cpp" />
+        <option value="$PROJECT_DIR$/example_digraph.cpp" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/example_graph.cpp" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="973" />
+    <option name="y" value="522" />
+    <option name="width" value="796" />
+    <option name="height" value="532" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UC" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../leetcode" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/algorithm" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.example_graph">
+    <configuration default="true" type="CLion_Remote" factoryName="GDB Remote Debug" remoteCommand="" symbolFile="" sysroot="">
+      <method />
+    </configuration>
+    <configuration default="true" type="CMakeCatchTestRunConfigurationType" factoryName="Catch Test" PASS_PARENT_ENVS_2="true" TEST_MODE="SUITE_TEST">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" PASS_PARENT_ENVS_2="true" TEST_MODE="SUITE_TEST">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="ChromiumRemoteDebugType" factoryName="Chromium Remote">
+      <method />
+    </configuration>
+    <configuration default="true" type="CompoundRunConfigurationType" factoryName="Compound Run Configuration">
+      <method />
+    </configuration>
+    <configuration default="true" type="FirefoxRemoteDebugType" factoryName="Firefox Remote">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeWebKit" factoryName="NW.js">
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="UC" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="ReactNative" factoryName="React Native">
+      <node-interpreter value="project" />
+      <platform value="ANDROID" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="UC" />
+      <method />
+    </configuration>
+    <configuration default="true" type="XSLT" factoryName="XSLT">
+      <option name="myOutputFile" />
+      <option name="myOpenOutputFile" value="false" />
+      <option name="myOpenInBrowser" value="false" />
+      <option name="mySmartErrorHandling" value="true" />
+      <option name="myRunnerPort" value="34873" />
+      <option name="myVmArguments" />
+      <option name="myWorkingDirectory" />
+      <option name="myModule" />
+      <option name="myJdk" />
+      <parameters />
+      <OutputType value="CONSOLE" save-to-file="false" />
+      <FileType name="XML" />
+      <JdkChoice value="FROM_MODULE" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.grunt" factoryName="Grunt.js">
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="UC" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="UC" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;.&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="UC" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;.&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="UC" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;.&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method />
+    </configuration>
+    <configuration default="false" name="example_binary_tree" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UC" TARGET_NAME="example_binary_tree" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="UC" RUN_TARGET_NAME="example_binary_tree">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="example_binary_tree2" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UC" TARGET_NAME="example_binary_tree2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="UC" RUN_TARGET_NAME="example_binary_tree2">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="example_binary_tree_adt" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UC" TARGET_NAME="example_binary_tree_adt" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="UC" RUN_TARGET_NAME="example_binary_tree_adt">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="example_binary_tree_avl" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UC" TARGET_NAME="example_binary_tree_avl" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="UC" RUN_TARGET_NAME="example_binary_tree_avl">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="example_binarysearch" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UC" TARGET_NAME="example_binarysearch" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="UC" RUN_TARGET_NAME="example_binarysearch">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="example_bitalgorithm" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UC" TARGET_NAME="example_bitalgorithm" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="UC" RUN_TARGET_NAME="example_bitalgorithm">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="example_check_alot_server2" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UC" TARGET_NAME="example_check_alot_server2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="UC" RUN_TARGET_NAME="example_check_alot_server2">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="example_check_alot_server3" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UC" TARGET_NAME="example_check_alot_server3" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="UC" RUN_TARGET_NAME="example_check_alot_server3">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="example_consistent_hash" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UC" TARGET_NAME="example_consistent_hash" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="UC" RUN_TARGET_NAME="example_consistent_hash">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="example_d_heap" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UC" TARGET_NAME="example_d_heap" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="UC" RUN_TARGET_NAME="example_d_heap">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="example_digraph" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UC" TARGET_NAME="example_digraph" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="UC" RUN_TARGET_NAME="example_digraph">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="example_graph" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UC" TARGET_NAME="example_graph" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="UC" RUN_TARGET_NAME="example_graph">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="example_hashtable" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UC" TARGET_NAME="example_hashtable" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="UC" RUN_TARGET_NAME="example_hashtable">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="example_hashtable2" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UC" TARGET_NAME="example_hashtable2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="UC" RUN_TARGET_NAME="example_hashtable2">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="example_hashtable3" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UC" TARGET_NAME="example_hashtable3" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="UC" RUN_TARGET_NAME="example_hashtable3">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="example_heap" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UC" TARGET_NAME="example_heap" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="UC" RUN_TARGET_NAME="example_heap">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="example_heapsort" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UC" TARGET_NAME="example_heapsort" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="UC" RUN_TARGET_NAME="example_heapsort">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="example_huffman" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UC" TARGET_NAME="example_huffman" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="UC" RUN_TARGET_NAME="example_huffman">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="example_jingqun" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UC" TARGET_NAME="example_jingqun" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="UC" RUN_TARGET_NAME="example_jingqun">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="example_list1" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UC" TARGET_NAME="example_list1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="UC" RUN_TARGET_NAME="example_list1">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="example_mem_pool" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UC" TARGET_NAME="example_mem_pool" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="UC" RUN_TARGET_NAME="example_mem_pool">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="example_mmap1" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UC" TARGET_NAME="example_mmap1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="UC" RUN_TARGET_NAME="example_mmap1">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="example_morse" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UC" TARGET_NAME="example_morse" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="UC" RUN_TARGET_NAME="example_morse">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="example_pthread1" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UC" TARGET_NAME="example_pthread1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="UC" RUN_TARGET_NAME="example_pthread1">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="example_pthread_cond1" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UC" TARGET_NAME="example_pthread_cond1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="UC" RUN_TARGET_NAME="example_pthread_cond1">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="example_quicksort" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UC" TARGET_NAME="example_quicksort" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="UC" RUN_TARGET_NAME="example_quicksort">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="example_redis_test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UC" TARGET_NAME="example_redis_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="UC" RUN_TARGET_NAME="example_redis_test">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="example_sem1" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UC" TARGET_NAME="example_sem1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="UC" RUN_TARGET_NAME="example_sem1">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="example_shm1" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UC" TARGET_NAME="example_shm1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="UC" RUN_TARGET_NAME="example_shm1">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="example_shm2" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UC" TARGET_NAME="example_shm2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="UC" RUN_TARGET_NAME="example_shm2">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="example_shm_hashtable1" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UC" TARGET_NAME="example_shm_hashtable1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="UC" RUN_TARGET_NAME="example_shm_hashtable1">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="example_shm_hashtable2" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UC" TARGET_NAME="example_shm_hashtable2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="UC" RUN_TARGET_NAME="example_shm_hashtable2">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="example_socket1" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UC" TARGET_NAME="example_socket1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="UC" RUN_TARGET_NAME="example_socket1">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="example_sort" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UC" TARGET_NAME="example_sort" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="UC" RUN_TARGET_NAME="example_sort">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="example_test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UC" TARGET_NAME="example_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="UC" RUN_TARGET_NAME="example_test">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="example_thread_epoll1" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UC" TARGET_NAME="example_thread_epoll1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="UC" RUN_TARGET_NAME="example_thread_epoll1">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="example_thread_pool" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UC" TARGET_NAME="example_thread_pool" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="UC" RUN_TARGET_NAME="example_thread_pool">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="example_unlockqueue" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UC" TARGET_NAME="example_unlockqueue" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="UC" RUN_TARGET_NAME="example_unlockqueue">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="main" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UC" TARGET_NAME="main" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="UC" RUN_TARGET_NAME="main">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
+      <envs />
+      <method />
+    </configuration>
+    <list size="40">
+      <item index="0" class="java.lang.String" itemvalue="Application.example_binary_tree" />
+      <item index="1" class="java.lang.String" itemvalue="Application.example_binary_tree2" />
+      <item index="2" class="java.lang.String" itemvalue="Application.example_binary_tree_adt" />
+      <item index="3" class="java.lang.String" itemvalue="Application.example_binary_tree_avl" />
+      <item index="4" class="java.lang.String" itemvalue="Application.example_binarysearch" />
+      <item index="5" class="java.lang.String" itemvalue="Application.example_bitalgorithm" />
+      <item index="6" class="java.lang.String" itemvalue="Application.example_check_alot_server2" />
+      <item index="7" class="java.lang.String" itemvalue="Application.example_check_alot_server3" />
+      <item index="8" class="java.lang.String" itemvalue="Application.example_consistent_hash" />
+      <item index="9" class="java.lang.String" itemvalue="Application.example_d_heap" />
+      <item index="10" class="java.lang.String" itemvalue="Application.example_digraph" />
+      <item index="11" class="java.lang.String" itemvalue="Application.example_graph" />
+      <item index="12" class="java.lang.String" itemvalue="Application.example_hashtable" />
+      <item index="13" class="java.lang.String" itemvalue="Application.example_hashtable2" />
+      <item index="14" class="java.lang.String" itemvalue="Application.example_hashtable3" />
+      <item index="15" class="java.lang.String" itemvalue="Application.example_heap" />
+      <item index="16" class="java.lang.String" itemvalue="Application.example_heapsort" />
+      <item index="17" class="java.lang.String" itemvalue="Application.example_huffman" />
+      <item index="18" class="java.lang.String" itemvalue="Application.example_jingqun" />
+      <item index="19" class="java.lang.String" itemvalue="Application.example_list1" />
+      <item index="20" class="java.lang.String" itemvalue="Application.example_mem_pool" />
+      <item index="21" class="java.lang.String" itemvalue="Application.example_mmap1" />
+      <item index="22" class="java.lang.String" itemvalue="Application.example_morse" />
+      <item index="23" class="java.lang.String" itemvalue="Application.example_pthread1" />
+      <item index="24" class="java.lang.String" itemvalue="Application.example_pthread_cond1" />
+      <item index="25" class="java.lang.String" itemvalue="Application.example_quicksort" />
+      <item index="26" class="java.lang.String" itemvalue="Application.example_redis_test" />
+      <item index="27" class="java.lang.String" itemvalue="Application.example_sem1" />
+      <item index="28" class="java.lang.String" itemvalue="Application.example_shm1" />
+      <item index="29" class="java.lang.String" itemvalue="Application.example_shm2" />
+      <item index="30" class="java.lang.String" itemvalue="Application.example_shm_hashtable1" />
+      <item index="31" class="java.lang.String" itemvalue="Application.example_shm_hashtable2" />
+      <item index="32" class="java.lang.String" itemvalue="Application.example_socket1" />
+      <item index="33" class="java.lang.String" itemvalue="Application.example_sort" />
+      <item index="34" class="java.lang.String" itemvalue="Application.example_test" />
+      <item index="35" class="java.lang.String" itemvalue="Application.example_thread_epoll1" />
+      <item index="36" class="java.lang.String" itemvalue="Application.example_thread_pool" />
+      <item index="37" class="java.lang.String" itemvalue="Application.example_unlockqueue" />
+      <item index="38" class="java.lang.String" itemvalue="Application.main" />
+      <item index="39" class="java.lang.String" itemvalue="Application.Build All" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a49f9158-8de8-4d30-8765-695fde6357e4" name="Default" comment="" />
+      <created>1504071809574</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1504071809574</updated>
+      <workItem from="1504071811345" duration="11831000" />
+      <workItem from="1504104315574" duration="804000" />
+      <workItem from="1504113373751" duration="2118000" />
+      <workItem from="1504158060312" duration="11306000" />
+      <workItem from="1504181095097" duration="10019000" />
+      <workItem from="1504202002203" duration="1848000" />
+      <workItem from="1504204480579" duration="29205000" />
+      <workItem from="1504265002337" duration="286000" />
+      <workItem from="1504274690216" duration="7968000" />
+      <workItem from="1504421699729" duration="107000" />
+      <workItem from="1504522386594" duration="4374000" />
+      <workItem from="1504540038125" duration="292000" />
+      <workItem from="1504679761092" duration="1945000" />
+      <workItem from="1504754049813" duration="474000" />
+      <workItem from="1505143577529" duration="75000" />
+      <workItem from="1505226472507" duration="6499000" />
+      <workItem from="1505627886392" duration="1855000" />
+      <workItem from="1505645585069" duration="12454000" />
+      <workItem from="1505673033812" duration="1797000" />
+      <workItem from="1505722395951" duration="4788000" />
+      <workItem from="1505803902338" duration="3462000" />
+      <workItem from="1505975268496" duration="2808000" />
+      <workItem from="1506243645317" duration="9544000" />
+      <workItem from="1506264782759" duration="8937000" />
+      <workItem from="1506275190666" duration="4979000" />
+      <workItem from="1506322115490" duration="4631000" />
+      <workItem from="1506333219846" duration="2589000" />
+      <workItem from="1506363046522" duration="2870000" />
+      <workItem from="1506402058592" duration="677000" />
+      <workItem from="1506435321819" duration="858000" />
+      <workItem from="1506498911362" duration="10783000" />
+      <workItem from="1506532037786" duration="6789000" />
+      <workItem from="1506669023891" duration="9000" />
+      <workItem from="1506669476635" duration="717000" />
+      <workItem from="1506729374386" duration="947000" />
+      <workItem from="1506766451583" duration="826000" />
+      <workItem from="1506769307305" duration="4499000" />
+      <workItem from="1506787433392" duration="577000" />
+      <workItem from="1506788182749" duration="40000" />
+      <workItem from="1506788235826" duration="284000" />
+      <workItem from="1506825768170" duration="129000" />
+      <workItem from="1506825930703" duration="6232000" />
+      <workItem from="1506955728111" duration="3593000" />
+      <workItem from="1506961424832" duration="5080000" />
+      <workItem from="1507023627674" duration="309000" />
+      <workItem from="1507024013345" duration="94000" />
+      <workItem from="1507024338905" duration="455000" />
+      <workItem from="1507024855927" duration="41000" />
+      <workItem from="1507045690168" duration="1855000" />
+      <workItem from="1507048194868" duration="825000" />
+      <workItem from="1507093224669" duration="3166000" />
+      <workItem from="1507096717205" duration="17000" />
+      <workItem from="1507096744805" duration="84000" />
+      <workItem from="1507096872268" duration="3000" />
+      <workItem from="1507096883741" duration="66000" />
+      <workItem from="1507096984155" duration="69000" />
+      <workItem from="1507097065726" duration="741000" />
+      <workItem from="1507176621617" duration="2912000" />
+      <workItem from="1507205295429" duration="2316000" />
+      <workItem from="1507266156018" duration="1098000" />
+      <workItem from="1507442679670" duration="442000" />
+      <workItem from="1507452450823" duration="1875000" />
+      <workItem from="1507467625646" duration="2000" />
+      <workItem from="1507469522976" duration="2455000" />
+      <workItem from="1507482597304" duration="2152000" />
+      <workItem from="1507563127406" duration="42000" />
+      <workItem from="1507563226982" duration="10000" />
+      <workItem from="1507563249810" duration="5000" />
+      <workItem from="1507563301194" duration="1868000" />
+      <workItem from="1507604597964" duration="1003000" />
+      <workItem from="1507622490919" duration="22000" />
+      <workItem from="1507622983436" duration="576000" />
+      <workItem from="1507623620730" duration="651000" />
+      <workItem from="1507624362797" duration="2114000" />
+      <workItem from="1507801952379" duration="687000" />
+      <workItem from="1507869236733" duration="2300000" />
+      <workItem from="1507900639652" duration="5712000" />
+      <workItem from="1507957814967" duration="3599000" />
+      <workItem from="1507966074406" duration="10139000" />
+      <workItem from="1508077410436" duration="18025000" />
+      <workItem from="1508220577056" duration="70000" />
+      <workItem from="1508302676369" duration="12000" />
+      <workItem from="1508313708042" duration="7725000" />
+      <workItem from="1508393557272" duration="200000" />
+      <workItem from="1508395980124" duration="3081000" />
+      <workItem from="1508932796903" duration="2079000" />
+      <workItem from="1509211931286" duration="90000" />
+      <workItem from="1509358526338" duration="6000" />
+      <workItem from="1509429916152" duration="3000" />
+      <workItem from="1509546217567" duration="23000" />
+      <workItem from="1509636545826" duration="656000" />
+      <workItem from="1510238315466" duration="4128000" />
+      <workItem from="1510293318955" duration="10769000" />
+      <workItem from="1510381797056" duration="36000" />
+      <workItem from="1510499007212" duration="7000" />
+      <workItem from="1510552998757" duration="75000" />
+      <workItem from="1511062892880" duration="61000" />
+      <workItem from="1525185613975" duration="7000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="290070000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="973" y="522" width="796" height="532" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.629397" sideWeight="0.49263158" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3375" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.022380468" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21471173" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2588047" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.04781282" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.00125" sideWeight="0.50736845" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.008333334" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42929807" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960325" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3375" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41912514" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.077534795" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19633774" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.140625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960325" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2588047" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5412004" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.008333334" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/example_shm1.cpp</url>
+          <line>19</line>
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/example_hashtable3.cpp</url>
+          <line>10</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/example_quicksort.cpp</url>
+          <line>26</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/example_heapsort.cpp</url>
+          <line>62</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/example_socket1.cpp</url>
+          <line>45</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/example_socket1.cpp</url>
+          <line>32</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/example_pthread1.cpp</url>
+          <line>13</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/example_sem1.cpp</url>
+          <line>32</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/example_pthread_cond1.cpp</url>
+          <line>63</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/example_binarysearch.cpp</url>
+          <line>68</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/example_test.cpp</url>
+          <line>4</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/example_test.cpp</url>
+          <line>19</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/example_binary_tree_avl.cpp</url>
+          <line>129</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/example_heap.cpp</url>
+          <line>69</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/example_check_alot_server2.cpp</url>
+          <line>140</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/example_sort.cpp</url>
+          <line>24</line>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/example_mem_pool.cpp</url>
+          <line>160</line>
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/example_mem_pool.cpp</url>
+          <line>159</line>
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/example_mem_pool.cpp</url>
+          <line>67</line>
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/example_huffman.cpp</url>
+          <line>48</line>
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/example_digraph.cpp</url>
+          <line>101</line>
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/example_digraph.cpp</url>
+          <line>81</line>
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="61" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file:///usr/local/include/ev.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12640">
+          <caret line="632" column="16" lean-forward="false" selection-start-line="632" selection-start-column="2" selection-end-line="632" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example_d_heap.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example_binarysearch.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="28" column="1" lean-forward="false" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example_check_alot_server2.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1460">
+          <caret line="73" column="16" lean-forward="false" selection-start-line="73" selection-start-column="16" selection-end-line="88" selection-end-column="17" />
+          <folding>
+            <element signature="e#38#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/include/ev.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12640">
+          <caret line="632" column="16" lean-forward="false" selection-start-line="632" selection-start-column="2" selection-end-line="632" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example_d_heap.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example_check_alot_server3.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="13" column="55" lean-forward="true" selection-start-line="13" selection-start-column="55" selection-end-line="13" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/include/ev.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12640">
+          <caret line="632" column="16" lean-forward="false" selection-start-line="632" selection-start-column="2" selection-end-line="632" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example_shm_hashtable1.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example_sem1.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-180">
+          <caret line="19" column="13" lean-forward="true" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example_check_alot_server.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example_bitalgorithm.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example_binarysearch.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="28" column="1" lean-forward="false" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example_binary_tree2.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example_binary_tree_avl.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1280">
+          <caret line="64" column="23" lean-forward="false" selection-start-line="64" selection-start-column="23" selection-end-line="64" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example_heapsort.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1360">
+          <caret line="68" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example_hashtable3.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example_heap.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="13" column="40" lean-forward="false" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example_thread_pool.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3300">
+          <caret line="165" column="16" lean-forward="false" selection-start-line="165" selection-start-column="16" selection-end-line="165" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example_quicksort.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example_mem_pool.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="980">
+          <caret line="49" column="46" lean-forward="false" selection-start-line="49" selection-start-column="36" selection-end-line="49" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example_list1.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example_morse.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="36" column="20" lean-forward="false" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unlockqueue.h" />
+    <entry file="file://$PROJECT_DIR$/unlockqueue.cpp" />
+    <entry file="file://$PROJECT_DIR$/example_huffman.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2260">
+          <caret line="113" column="9" lean-forward="false" selection-start-line="113" selection-start-column="9" selection-end-line="113" selection-end-column="9" />
+          <folding>
+            <element signature="e#39#57#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example_socket1.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example_binary_tree_adt.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example_jingqun.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="760">
+          <caret line="38" column="10" lean-forward="false" selection-start-line="38" selection-start-column="10" selection-end-line="38" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example_jingqun2.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2180">
+          <caret line="109" column="33" lean-forward="false" selection-start-line="109" selection-start-column="33" selection-end-line="109" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example_left_heap.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example_hashtable.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example_d_heap.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example_consistent_hash.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example_check_alot_server3.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="24" column="9" lean-forward="false" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example_check_alot_server2.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1460">
+          <caret line="73" column="16" lean-forward="false" selection-start-line="73" selection-start-column="16" selection-end-line="88" selection-end-column="17" />
+          <folding>
+            <element signature="e#38#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coroutine.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example_unlockqueue.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="19" lean-forward="false" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/c++/4.8/iostream">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="436">
+          <caret line="59" column="17" lean-forward="false" selection-start-line="59" selection-start-column="17" selection-end-line="59" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/c++/4.8/fstream">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11240">
+          <caret line="562" column="37" lean-forward="false" selection-start-line="562" selection-start-column="9" selection-end-line="562" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coroutine.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example_test.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example_sort.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2460">
+          <caret line="123" column="5" lean-forward="false" selection-start-line="123" selection-start-column="5" selection-end-line="123" selection-end-column="5" />
+          <folding>
+            <element signature="e#38#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="36" column="27" lean-forward="false" selection-start-line="36" selection-start-column="27" selection-end-line="36" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example_thread_epoll1.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example_redis_test.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example_digraph.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1300">
+          <caret line="65" column="5" lean-forward="false" selection-start-line="65" selection-start-column="5" selection-end-line="65" selection-end-column="5" />
+          <folding>
+            <element signature="e#38#53#0" expanded="true" />
+            <element signature="e#197#216#0" expanded="true" />
+            <element signature="e#673#692#0" expanded="true" />
+            <element signature="e#795#814#0" expanded="true" />
+            <element signature="e#1291#1310#0" expanded="true" />
+            <element signature="e#1739#1758#0" expanded="true" />
+            <element signature="e#2173#2192#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example_graph.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1160">
+          <caret line="58" column="5" lean-forward="false" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
+          <folding>
+            <element signature="e#39#56#0" expanded="true" />
+            <element signature="e#107#126#0" expanded="true" />
+            <element signature="e#669#688#0" expanded="true" />
+            <element signature="e#786#805#0" expanded="true" />
+            <element signature="e#1741#1760#0" expanded="true" />
+            <element signature="e#2311#2330#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="9" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="54" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example_hashtable2.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="131" column="36" lean-forward="false" selection-start-line="131" selection-start-column="36" selection-end-line="131" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

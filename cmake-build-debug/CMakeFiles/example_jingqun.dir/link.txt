@@ -1,0 +1,1 @@
+/usr/bin/c++   -fpermissive -g   CMakeFiles/example_jingqun.dir/example_jingqun.cpp.o  -o example_jingqun -lpthread -Wl,-Bstatic -lhiredis -lev -Wl,-Bdynamic 

@@ -1,0 +1,1 @@
+/usr/bin/c++   -fpermissive -g   CMakeFiles/example_huffman.dir/example_huffman.cpp.o  -o example_huffman -lpthread -Wl,-Bstatic -lhiredis -lev -Wl,-Bdynamic 

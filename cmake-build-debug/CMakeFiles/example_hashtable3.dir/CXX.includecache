@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/root/cppworkspace/ClionProjects/UC/example_hashtable3.cpp
+stdio.h
+-
+string.h
+-
+stdlib.h
+-
+sys/ipc.h
+-
+sys/shm.h
+-
+sys/types.h
+-
+

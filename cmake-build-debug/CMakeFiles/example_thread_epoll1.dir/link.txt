@@ -1,0 +1,1 @@
+/usr/bin/c++   -fpermissive -g   CMakeFiles/example_thread_epoll1.dir/example_thread_epoll1.cpp.o  -o example_thread_epoll1 -lpthread -Wl,-Bstatic -lhiredis -lev -Wl,-Bdynamic 

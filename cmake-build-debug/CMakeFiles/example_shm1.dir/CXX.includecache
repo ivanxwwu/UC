@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/root/cppworkspace/ClionProjects/UC/example_shm1.cpp
+stdio.h
+-
+unistd.h
+-
+string.h
+-
+sys/ipc.h
+-
+sys/shm.h
+-
+error.h
+-
+

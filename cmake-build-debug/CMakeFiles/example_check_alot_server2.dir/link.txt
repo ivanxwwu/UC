@@ -1,0 +1,1 @@
+/usr/bin/c++   -fpermissive -g   CMakeFiles/example_check_alot_server2.dir/example_check_alot_server2.cpp.o CMakeFiles/example_check_alot_server2.dir/coroutine.cpp.o  -o example_check_alot_server2 

@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/root/cppworkspace/ClionProjects/UC/example_redis_test.cpp
+hiredis/hiredis.h
+/root/cppworkspace/ClionProjects/UC/hiredis/hiredis.h
+stdlib.h
+/root/cppworkspace/ClionProjects/UC/stdlib.h
+hiredis/async.h
+/root/cppworkspace/ClionProjects/UC/hiredis/async.h
+unistd.h
+-
+hiredis/adapters/libev.h
+-
+

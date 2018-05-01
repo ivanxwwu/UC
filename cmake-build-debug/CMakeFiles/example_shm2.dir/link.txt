@@ -1,0 +1,1 @@
+/usr/bin/c++   -fpermissive -g   CMakeFiles/example_shm2.dir/example_shm2.cpp.o  -o example_shm2 -lpthread -Wl,-Bstatic -lhiredis -lev -Wl,-Bdynamic 

@@ -1,0 +1,1 @@
+/usr/bin/c++   -fpermissive -g   CMakeFiles/example_morse.dir/example_morse.cpp.o  -o example_morse -lpthread -Wl,-Bstatic -lhiredis -lev -Wl,-Bdynamic 

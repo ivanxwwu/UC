@@ -1,0 +1,1 @@
+/usr/bin/c++   -fpermissive -g   CMakeFiles/example_binarysearch.dir/example_binarysearch.cpp.o  -o example_binarysearch -lpthread -Wl,-Bstatic -lhiredis -lev -Wl,-Bdynamic 
