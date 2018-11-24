@@ -1,5 +1,6 @@
 /root/cppworkspace/ClionProjects/UC/cmake-build-debug/CMakeFiles/edit_cache.dir
 /root/cppworkspace/ClionProjects/UC/cmake-build-debug/CMakeFiles/example_check_alot_server2.dir
+/root/cppworkspace/ClionProjects/UC/cmake-build-debug/CMakeFiles/t.dir
 /root/cppworkspace/ClionProjects/UC/cmake-build-debug/CMakeFiles/example_graph.dir
 /root/cppworkspace/ClionProjects/UC/cmake-build-debug/CMakeFiles/example_huffman.dir
 /root/cppworkspace/ClionProjects/UC/cmake-build-debug/CMakeFiles/example_morse.dir

@@ -33,9 +33,10 @@ int main(){
         exit(1);
     }
 
-    reply = (redisReply*)redisCommand(connect, "get %s", "c");
-    printf("%s   %d %d\n", reply->str, reply->len, reply->type);
-
+    reply = (redisReply*)redisCommand(connect, "smembers %s", "c");
+    printf("%s   %d %d\n", reply->str, reply->elements, reply->type);
+    //REDIS_REPLY_ERROR
+    printf("===========================\n");
     freeReplyObject(reply);
     char value[4] = {0x20, 0x20, 0x44, 0x55};
     reply = (redisReply*)redisCommand(connect, "set b %b", value, (size_t)4);

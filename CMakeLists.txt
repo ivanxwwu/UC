@@ -53,3 +53,5 @@ add_example_target(graph)
 #####
 add_executable("example_check_alot_server2" "example_check_alot_server2.cpp" "coroutine.cpp")
 add_executable("main" "main.cpp")
+target_link_libraries("main" -pthread -rdynamic)
+add_executable("t" "t.cpp")

@@ -20,7 +20,7 @@ void* thread1(void* p){
     }
 }
 void* thread2(void* p){
-    sleep(3);
+    sleep(60);
     pthread_t tid = *(pthread_t*)p;
     printf("准备取消另外一个线程\n");
     int res = pthread_cancel(tid);

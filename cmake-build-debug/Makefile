@@ -39,10 +39,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/local/clion-2017.1.3/bin/cmake/bin/cmake
+CMAKE_COMMAND = /data1/usr/local/clion-2017.1.3/bin/cmake/bin/cmake
 
 # The command to remove a file.
-RM = /usr/local/clion-2017.1.3/bin/cmake/bin/cmake -E remove -f
+RM = /data1/usr/local/clion-2017.1.3/bin/cmake/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /root/cppworkspace/ClionProjects/UC/cmake-build-debug
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/usr/local/clion-2017.1.3/bin/cmake/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/data1/usr/local/clion-2017.1.3/bin/cmake/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -70,7 +70,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/usr/local/clion-2017.1.3/bin/cmake/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/data1/usr/local/clion-2017.1.3/bin/cmake/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -122,6 +122,19 @@ example_check_alot_server2: cmake_check_build_system
 example_check_alot_server2/fast:
 	$(MAKE) -f CMakeFiles/example_check_alot_server2.dir/build.make CMakeFiles/example_check_alot_server2.dir/build
 .PHONY : example_check_alot_server2/fast
+
+#=============================================================================
+# Target rules for targets named t
+
+# Build rule for target.
+t : cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 t
+.PHONY : t
+
+# fast build rule for target.
+t/fast:
+	$(MAKE) -f CMakeFiles/t.dir/build.make CMakeFiles/t.dir/build
+.PHONY : t/fast
 
 #=============================================================================
 # Target rules for targets named example_graph
@@ -1697,6 +1710,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+t.o: t.cpp.o
+
+.PHONY : t.o
+
+# target to build an object file
+t.cpp.o:
+	$(MAKE) -f CMakeFiles/t.dir/build.make CMakeFiles/t.dir/t.cpp.o
+.PHONY : t.cpp.o
+
+t.i: t.cpp.i
+
+.PHONY : t.i
+
+# target to preprocess a source file
+t.cpp.i:
+	$(MAKE) -f CMakeFiles/t.dir/build.make CMakeFiles/t.dir/t.cpp.i
+.PHONY : t.cpp.i
+
+t.s: t.cpp.s
+
+.PHONY : t.s
+
+# target to generate assembly for a file
+t.cpp.s:
+	$(MAKE) -f CMakeFiles/t.dir/build.make CMakeFiles/t.dir/t.cpp.s
+.PHONY : t.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -1705,6 +1745,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... example_check_alot_server2"
+	@echo "... t"
 	@echo "... example_graph"
 	@echo "... example_huffman"
 	@echo "... example_morse"
@@ -1864,6 +1905,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... t.o"
+	@echo "... t.i"
+	@echo "... t.s"
 .PHONY : help
 
 

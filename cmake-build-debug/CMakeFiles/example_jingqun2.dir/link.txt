@@ -1,1 +1,0 @@
-/usr/bin/c++   -g   CMakeFiles/example_jingqun2.dir/example_jingqun2.cpp.o  -o example_jingqun2 

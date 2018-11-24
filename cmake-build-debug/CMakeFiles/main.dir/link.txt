@@ -1,1 +1,1 @@
-/usr/bin/c++   -fpermissive -g   CMakeFiles/main.dir/main.cpp.o  -o main 
+/usr/bin/c++   -fpermissive -g   CMakeFiles/main.dir/main.cpp.o  -o main -pthread -rdynamic 

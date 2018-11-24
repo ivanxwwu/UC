@@ -11,20 +11,20 @@
 				<Option working_dir="/root/cppworkspace/ClionProjects/UC/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
 				<Option working_dir="/root/cppworkspace/ClionProjects/UC/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="example_check_alot_server2">
@@ -44,10 +44,10 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_check_alot_server2"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_check_alot_server2"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="example_check_alot_server2/fast">
@@ -67,10 +67,56 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_check_alot_server2/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_check_alot_server2/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="t">
+				<Option output="/root/cppworkspace/ClionProjects/UC/cmake-build-debug/t" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/root/cppworkspace/ClionProjects/UC/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 t"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="t/fast">
+				<Option output="/root/cppworkspace/ClionProjects/UC/cmake-build-debug/t" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/root/cppworkspace/ClionProjects/UC/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 t/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="example_graph">
@@ -90,10 +136,10 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_graph"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_graph"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="example_graph/fast">
@@ -113,10 +159,10 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_graph/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_graph/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="example_huffman">
@@ -136,10 +182,10 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_huffman"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_huffman"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="example_huffman/fast">
@@ -159,10 +205,10 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_huffman/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_huffman/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="example_morse">
@@ -182,10 +228,10 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_morse"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_morse"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="example_morse/fast">
@@ -205,10 +251,10 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_morse/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_morse/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="example_consistent_hash">
@@ -228,10 +274,10 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_consistent_hash"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_consistent_hash"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="example_consistent_hash/fast">
@@ -251,10 +297,10 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_consistent_hash/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_consistent_hash/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="example_check_alot_server3">
@@ -274,10 +320,10 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_check_alot_server3"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_check_alot_server3"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="example_check_alot_server3/fast">
@@ -297,10 +343,10 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_check_alot_server3/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_check_alot_server3/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="example_test">
@@ -320,10 +366,10 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_test"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_test"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="example_test/fast">
@@ -343,10 +389,10 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_test/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_test/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="example_sort">
@@ -366,10 +412,10 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_sort"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_sort"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="example_sort/fast">
@@ -389,10 +435,10 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_sort/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_sort/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="example_mem_pool">
@@ -412,10 +458,10 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_mem_pool"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_mem_pool"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="example_mem_pool/fast">
@@ -435,10 +481,10 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_mem_pool/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_mem_pool/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="example_d_heap">
@@ -458,10 +504,10 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_d_heap"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_d_heap"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="example_d_heap/fast">
@@ -481,10 +527,10 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_d_heap/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_d_heap/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="example_heap">
@@ -504,10 +550,10 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_heap"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_heap"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="example_heap/fast">
@@ -527,10 +573,10 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_heap/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_heap/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="example_thread_pool">
@@ -550,10 +596,10 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_thread_pool"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_thread_pool"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="example_thread_pool/fast">
@@ -573,10 +619,10 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_thread_pool/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_thread_pool/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="example_redis_test">
@@ -596,10 +642,10 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_redis_test"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_redis_test"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="example_redis_test/fast">
@@ -619,10 +665,10 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_redis_test/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_redis_test/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="example_binary_tree_avl">
@@ -642,10 +688,10 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_binary_tree_avl"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_binary_tree_avl"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="example_binary_tree_avl/fast">
@@ -665,10 +711,10 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_binary_tree_avl/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_binary_tree_avl/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="example_thread_epoll1">
@@ -688,10 +734,10 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_thread_epoll1"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_thread_epoll1"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="example_thread_epoll1/fast">
@@ -711,10 +757,10 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_thread_epoll1/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_thread_epoll1/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="example_shm_hashtable1">
@@ -734,10 +780,10 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_shm_hashtable1"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_shm_hashtable1"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="example_shm_hashtable1/fast">
@@ -757,10 +803,10 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_shm_hashtable1/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_shm_hashtable1/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="example_binarysearch">
@@ -780,10 +826,10 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_binarysearch"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_binarysearch"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="example_binarysearch/fast">
@@ -803,10 +849,10 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_binarysearch/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_binarysearch/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="example_hashtable3">
@@ -826,10 +872,10 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_hashtable3"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_hashtable3"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="example_hashtable3/fast">
@@ -849,10 +895,10 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_hashtable3/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_hashtable3/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="example_jingqun">
@@ -872,10 +918,10 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_jingqun"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_jingqun"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="example_jingqun/fast">
@@ -895,10 +941,10 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_jingqun/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_jingqun/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="example_shm2">
@@ -918,10 +964,10 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_shm2"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_shm2"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="example_shm2/fast">
@@ -941,10 +987,10 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_shm2/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_shm2/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="example_unlockqueue">
@@ -964,10 +1010,10 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_unlockqueue"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_unlockqueue"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="example_unlockqueue/fast">
@@ -987,10 +1033,10 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_unlockqueue/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_unlockqueue/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="example_heapsort">
@@ -1010,10 +1056,10 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_heapsort"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_heapsort"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="example_heapsort/fast">
@@ -1033,10 +1079,10 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_heapsort/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_heapsort/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="example_binary_tree2">
@@ -1056,10 +1102,10 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_binary_tree2"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_binary_tree2"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="example_binary_tree2/fast">
@@ -1079,10 +1125,10 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_binary_tree2/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_binary_tree2/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="example_digraph">
@@ -1102,10 +1148,10 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_digraph"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_digraph"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="example_digraph/fast">
@@ -1125,10 +1171,10 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_digraph/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_digraph/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="example_mmap1">
@@ -1148,10 +1194,10 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_mmap1"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_mmap1"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="example_mmap1/fast">
@@ -1171,10 +1217,10 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_mmap1/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_mmap1/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="example_shm_hashtable2">
@@ -1194,10 +1240,10 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_shm_hashtable2"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_shm_hashtable2"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="example_shm_hashtable2/fast">
@@ -1217,10 +1263,10 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_shm_hashtable2/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_shm_hashtable2/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="example_shm1">
@@ -1240,10 +1286,10 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_shm1"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_shm1"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="example_shm1/fast">
@@ -1263,20 +1309,20 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_shm1/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_shm1/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
 				<Option working_dir="/root/cppworkspace/ClionProjects/UC/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="example_quicksort">
@@ -1296,10 +1342,10 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_quicksort"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_quicksort"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="example_quicksort/fast">
@@ -1319,10 +1365,10 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_quicksort/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_quicksort/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="example_hashtable">
@@ -1342,10 +1388,10 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_hashtable"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_hashtable"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="example_hashtable/fast">
@@ -1365,10 +1411,10 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_hashtable/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_hashtable/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="example_list1">
@@ -1388,10 +1434,10 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_list1"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_list1"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="example_list1/fast">
@@ -1411,10 +1457,10 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_list1/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_list1/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="example_hashtable2">
@@ -1434,10 +1480,10 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_hashtable2"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_hashtable2"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="example_hashtable2/fast">
@@ -1457,10 +1503,10 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_hashtable2/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_hashtable2/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="example_socket1">
@@ -1480,10 +1526,10 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_socket1"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_socket1"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="example_socket1/fast">
@@ -1503,10 +1549,10 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_socket1/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_socket1/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="example_pthread1">
@@ -1526,10 +1572,10 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_pthread1"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_pthread1"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="example_pthread1/fast">
@@ -1549,10 +1595,10 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_pthread1/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_pthread1/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="example_sem1">
@@ -1572,10 +1618,10 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_sem1"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_sem1"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="example_sem1/fast">
@@ -1595,10 +1641,10 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_sem1/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_sem1/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="example_bitalgorithm">
@@ -1618,10 +1664,10 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_bitalgorithm"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_bitalgorithm"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="example_bitalgorithm/fast">
@@ -1641,10 +1687,10 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_bitalgorithm/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_bitalgorithm/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="main">
@@ -1664,10 +1710,10 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 main"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 main"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="main/fast">
@@ -1687,10 +1733,10 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 main/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 main/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="example_pthread_cond1">
@@ -1710,10 +1756,10 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_pthread_cond1"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_pthread_cond1"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="example_pthread_cond1/fast">
@@ -1733,10 +1779,10 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_pthread_cond1/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_pthread_cond1/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="example_binary_tree">
@@ -1756,10 +1802,10 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_binary_tree"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_binary_tree"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="example_binary_tree/fast">
@@ -1779,10 +1825,10 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_binary_tree/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_binary_tree/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="example_binary_tree_adt">
@@ -1802,10 +1848,10 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_binary_tree_adt"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_binary_tree_adt"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="example_binary_tree_adt/fast">
@@ -1825,10 +1871,10 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_binary_tree_adt/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_binary_tree_adt/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/root/cppworkspace/ClionProjects/UC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
@@ -1954,6 +2000,15 @@
 		</Unit>
 		<Unit filename="/root/cppworkspace/ClionProjects/UC/main.cpp">
 			<Option target="main"/>
+		</Unit>
+		<Unit filename="/root/cppworkspace/ClionProjects/UC/main.h">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/root/cppworkspace/ClionProjects/UC/t.cpp">
+			<Option target="t"/>
+		</Unit>
+		<Unit filename="/root/cppworkspace/ClionProjects/UC/t.h">
+			<Option target="t"/>
 		</Unit>
 		<Unit filename="/root/cppworkspace/ClionProjects/UC/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
