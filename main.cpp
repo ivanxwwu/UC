@@ -9,9 +9,6 @@
  *  @note Required flag /DEBUG /Zi to generate .pdb file when using MSVC
  */
 
-//https://www.cnblogs.com/catch/p/3604516.html
-//http://man7.org/linux/man-pages/man3/backtrace.3.html
-//http://www.ucw.cz/~hubicka/papers/abi/node25.html#SECTION00925100000000000000
 #include <cstdlib>
 #include <cstdio>
 #include <string>
@@ -312,7 +309,6 @@ static _Unwind_Reason_Code print_trace_unwind_callback(::_Unwind_Context* contex
         return _Unwind_GetIP(context) ? ::_URC_NO_REASON : ::_URC_END_OF_STACK;
     }
 
-
     *state->current = _Unwind_GetIP(context);
 
     ++state->current;
@@ -467,18 +463,17 @@ void print_trace () {
         char **func_name_cache;
 
         size = backtrace (array, BACKTRACE_MAX_FRAME_NUMBER);
-        printf("%d\n", size);
         func_name_cache = backtrace_symbols (array, size);
 
         printf("print stacktrace using execinfo.h with %d stacks\n",(int)size);
         for (size_t i = 0; i < size; i++) {
             stacktrace_symbol_group_t symbol;
+            printf("func_name :%s\n", func_name_cache[i]);
             stacktrace_pick_symbol_info(func_name_cache[i], symbol);
 
 #if defined(USING_LIBSTDCXX_ABI) || defined(USING_LIBCXX_ABI)
             if (!symbol.func_name.empty()) {
                 int cxx_abi_status;
-                printf("%s\n", symbol.func_name.c_str());
                 char* realfunc_name = abi::__cxa_demangle(symbol.func_name.c_str(), 0, 0, &cxx_abi_status);
                 if (NULL != realfunc_name) {
                     symbol.func_name = realfunc_name;
@@ -577,11 +572,25 @@ void func6(int times) {
     }
 }
 
+static void func8(){
+    print_trace();
+}
+
+void func7()
+{
+    func8();
+}
+
+
+
 int main (int argc, char* argv[]) {
-    int times = 15;
-    if (argc > 1) {
-        times = atoi(argv[1]);
-    }
-    func6(times);
+//    int times = 15;
+//    if (argc > 1) {
+//        times = atoi(argv[1]);
+//    }
+//    func6(times);
+
+    func7();
+    //do_backtrace();
     return 0;
 }
