@@ -56,17 +56,6 @@ CMAKE_BINARY_DIR = /root/cppworkspace/ClionProjects/UC/cmake-build-debug
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/data1/usr/local/clion-2017.1.3/bin/cmake/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
-
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
@@ -77,6 +66,17 @@ rebuild_cache:
 rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
+
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/data1/usr/local/clion-2017.1.3/bin/cmake/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -111,472 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named example_check_alot_server2
+# Target rules for targets named TestBoodoMtServer
 
 # Build rule for target.
-example_check_alot_server2: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 example_check_alot_server2
-.PHONY : example_check_alot_server2
+TestBoodoMtServer: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 TestBoodoMtServer
+.PHONY : TestBoodoMtServer
 
 # fast build rule for target.
-example_check_alot_server2/fast:
-	$(MAKE) -f CMakeFiles/example_check_alot_server2.dir/build.make CMakeFiles/example_check_alot_server2.dir/build
-.PHONY : example_check_alot_server2/fast
-
-#=============================================================================
-# Target rules for targets named t
-
-# Build rule for target.
-t : cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 t
-.PHONY : t
-
-# fast build rule for target.
-t/fast:
-	$(MAKE) -f CMakeFiles/t.dir/build.make CMakeFiles/t.dir/build
-.PHONY : t/fast
-
-#=============================================================================
-# Target rules for targets named example_graph
-
-# Build rule for target.
-example_graph: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 example_graph
-.PHONY : example_graph
-
-# fast build rule for target.
-example_graph/fast:
-	$(MAKE) -f CMakeFiles/example_graph.dir/build.make CMakeFiles/example_graph.dir/build
-.PHONY : example_graph/fast
-
-#=============================================================================
-# Target rules for targets named example_huffman
-
-# Build rule for target.
-example_huffman: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 example_huffman
-.PHONY : example_huffman
-
-# fast build rule for target.
-example_huffman/fast:
-	$(MAKE) -f CMakeFiles/example_huffman.dir/build.make CMakeFiles/example_huffman.dir/build
-.PHONY : example_huffman/fast
-
-#=============================================================================
-# Target rules for targets named example_morse
-
-# Build rule for target.
-example_morse: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 example_morse
-.PHONY : example_morse
-
-# fast build rule for target.
-example_morse/fast:
-	$(MAKE) -f CMakeFiles/example_morse.dir/build.make CMakeFiles/example_morse.dir/build
-.PHONY : example_morse/fast
-
-#=============================================================================
-# Target rules for targets named example_consistent_hash
-
-# Build rule for target.
-example_consistent_hash: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 example_consistent_hash
-.PHONY : example_consistent_hash
-
-# fast build rule for target.
-example_consistent_hash/fast:
-	$(MAKE) -f CMakeFiles/example_consistent_hash.dir/build.make CMakeFiles/example_consistent_hash.dir/build
-.PHONY : example_consistent_hash/fast
-
-#=============================================================================
-# Target rules for targets named example_check_alot_server3
-
-# Build rule for target.
-example_check_alot_server3: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 example_check_alot_server3
-.PHONY : example_check_alot_server3
-
-# fast build rule for target.
-example_check_alot_server3/fast:
-	$(MAKE) -f CMakeFiles/example_check_alot_server3.dir/build.make CMakeFiles/example_check_alot_server3.dir/build
-.PHONY : example_check_alot_server3/fast
-
-#=============================================================================
-# Target rules for targets named example_test
-
-# Build rule for target.
-example_test: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 example_test
-.PHONY : example_test
-
-# fast build rule for target.
-example_test/fast:
-	$(MAKE) -f CMakeFiles/example_test.dir/build.make CMakeFiles/example_test.dir/build
-.PHONY : example_test/fast
-
-#=============================================================================
-# Target rules for targets named example_sort
-
-# Build rule for target.
-example_sort: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 example_sort
-.PHONY : example_sort
-
-# fast build rule for target.
-example_sort/fast:
-	$(MAKE) -f CMakeFiles/example_sort.dir/build.make CMakeFiles/example_sort.dir/build
-.PHONY : example_sort/fast
-
-#=============================================================================
-# Target rules for targets named example_mem_pool
-
-# Build rule for target.
-example_mem_pool: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 example_mem_pool
-.PHONY : example_mem_pool
-
-# fast build rule for target.
-example_mem_pool/fast:
-	$(MAKE) -f CMakeFiles/example_mem_pool.dir/build.make CMakeFiles/example_mem_pool.dir/build
-.PHONY : example_mem_pool/fast
-
-#=============================================================================
-# Target rules for targets named example_d_heap
-
-# Build rule for target.
-example_d_heap: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 example_d_heap
-.PHONY : example_d_heap
-
-# fast build rule for target.
-example_d_heap/fast:
-	$(MAKE) -f CMakeFiles/example_d_heap.dir/build.make CMakeFiles/example_d_heap.dir/build
-.PHONY : example_d_heap/fast
-
-#=============================================================================
-# Target rules for targets named example_heap
-
-# Build rule for target.
-example_heap: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 example_heap
-.PHONY : example_heap
-
-# fast build rule for target.
-example_heap/fast:
-	$(MAKE) -f CMakeFiles/example_heap.dir/build.make CMakeFiles/example_heap.dir/build
-.PHONY : example_heap/fast
-
-#=============================================================================
-# Target rules for targets named example_thread_pool
-
-# Build rule for target.
-example_thread_pool: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 example_thread_pool
-.PHONY : example_thread_pool
-
-# fast build rule for target.
-example_thread_pool/fast:
-	$(MAKE) -f CMakeFiles/example_thread_pool.dir/build.make CMakeFiles/example_thread_pool.dir/build
-.PHONY : example_thread_pool/fast
-
-#=============================================================================
-# Target rules for targets named example_redis_test
-
-# Build rule for target.
-example_redis_test: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 example_redis_test
-.PHONY : example_redis_test
-
-# fast build rule for target.
-example_redis_test/fast:
-	$(MAKE) -f CMakeFiles/example_redis_test.dir/build.make CMakeFiles/example_redis_test.dir/build
-.PHONY : example_redis_test/fast
-
-#=============================================================================
-# Target rules for targets named example_binary_tree_avl
-
-# Build rule for target.
-example_binary_tree_avl: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 example_binary_tree_avl
-.PHONY : example_binary_tree_avl
-
-# fast build rule for target.
-example_binary_tree_avl/fast:
-	$(MAKE) -f CMakeFiles/example_binary_tree_avl.dir/build.make CMakeFiles/example_binary_tree_avl.dir/build
-.PHONY : example_binary_tree_avl/fast
-
-#=============================================================================
-# Target rules for targets named example_thread_epoll1
-
-# Build rule for target.
-example_thread_epoll1: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 example_thread_epoll1
-.PHONY : example_thread_epoll1
-
-# fast build rule for target.
-example_thread_epoll1/fast:
-	$(MAKE) -f CMakeFiles/example_thread_epoll1.dir/build.make CMakeFiles/example_thread_epoll1.dir/build
-.PHONY : example_thread_epoll1/fast
-
-#=============================================================================
-# Target rules for targets named example_shm_hashtable1
-
-# Build rule for target.
-example_shm_hashtable1: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 example_shm_hashtable1
-.PHONY : example_shm_hashtable1
-
-# fast build rule for target.
-example_shm_hashtable1/fast:
-	$(MAKE) -f CMakeFiles/example_shm_hashtable1.dir/build.make CMakeFiles/example_shm_hashtable1.dir/build
-.PHONY : example_shm_hashtable1/fast
-
-#=============================================================================
-# Target rules for targets named example_binarysearch
-
-# Build rule for target.
-example_binarysearch: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 example_binarysearch
-.PHONY : example_binarysearch
-
-# fast build rule for target.
-example_binarysearch/fast:
-	$(MAKE) -f CMakeFiles/example_binarysearch.dir/build.make CMakeFiles/example_binarysearch.dir/build
-.PHONY : example_binarysearch/fast
-
-#=============================================================================
-# Target rules for targets named example_hashtable3
-
-# Build rule for target.
-example_hashtable3: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 example_hashtable3
-.PHONY : example_hashtable3
-
-# fast build rule for target.
-example_hashtable3/fast:
-	$(MAKE) -f CMakeFiles/example_hashtable3.dir/build.make CMakeFiles/example_hashtable3.dir/build
-.PHONY : example_hashtable3/fast
-
-#=============================================================================
-# Target rules for targets named example_jingqun
-
-# Build rule for target.
-example_jingqun: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 example_jingqun
-.PHONY : example_jingqun
-
-# fast build rule for target.
-example_jingqun/fast:
-	$(MAKE) -f CMakeFiles/example_jingqun.dir/build.make CMakeFiles/example_jingqun.dir/build
-.PHONY : example_jingqun/fast
-
-#=============================================================================
-# Target rules for targets named example_shm2
-
-# Build rule for target.
-example_shm2: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 example_shm2
-.PHONY : example_shm2
-
-# fast build rule for target.
-example_shm2/fast:
-	$(MAKE) -f CMakeFiles/example_shm2.dir/build.make CMakeFiles/example_shm2.dir/build
-.PHONY : example_shm2/fast
-
-#=============================================================================
-# Target rules for targets named example_unlockqueue
-
-# Build rule for target.
-example_unlockqueue: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 example_unlockqueue
-.PHONY : example_unlockqueue
-
-# fast build rule for target.
-example_unlockqueue/fast:
-	$(MAKE) -f CMakeFiles/example_unlockqueue.dir/build.make CMakeFiles/example_unlockqueue.dir/build
-.PHONY : example_unlockqueue/fast
-
-#=============================================================================
-# Target rules for targets named example_heapsort
-
-# Build rule for target.
-example_heapsort: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 example_heapsort
-.PHONY : example_heapsort
-
-# fast build rule for target.
-example_heapsort/fast:
-	$(MAKE) -f CMakeFiles/example_heapsort.dir/build.make CMakeFiles/example_heapsort.dir/build
-.PHONY : example_heapsort/fast
-
-#=============================================================================
-# Target rules for targets named example_binary_tree2
-
-# Build rule for target.
-example_binary_tree2: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 example_binary_tree2
-.PHONY : example_binary_tree2
-
-# fast build rule for target.
-example_binary_tree2/fast:
-	$(MAKE) -f CMakeFiles/example_binary_tree2.dir/build.make CMakeFiles/example_binary_tree2.dir/build
-.PHONY : example_binary_tree2/fast
-
-#=============================================================================
-# Target rules for targets named example_digraph
-
-# Build rule for target.
-example_digraph: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 example_digraph
-.PHONY : example_digraph
-
-# fast build rule for target.
-example_digraph/fast:
-	$(MAKE) -f CMakeFiles/example_digraph.dir/build.make CMakeFiles/example_digraph.dir/build
-.PHONY : example_digraph/fast
-
-#=============================================================================
-# Target rules for targets named example_mmap1
-
-# Build rule for target.
-example_mmap1: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 example_mmap1
-.PHONY : example_mmap1
-
-# fast build rule for target.
-example_mmap1/fast:
-	$(MAKE) -f CMakeFiles/example_mmap1.dir/build.make CMakeFiles/example_mmap1.dir/build
-.PHONY : example_mmap1/fast
-
-#=============================================================================
-# Target rules for targets named example_shm_hashtable2
-
-# Build rule for target.
-example_shm_hashtable2: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 example_shm_hashtable2
-.PHONY : example_shm_hashtable2
-
-# fast build rule for target.
-example_shm_hashtable2/fast:
-	$(MAKE) -f CMakeFiles/example_shm_hashtable2.dir/build.make CMakeFiles/example_shm_hashtable2.dir/build
-.PHONY : example_shm_hashtable2/fast
-
-#=============================================================================
-# Target rules for targets named example_shm1
-
-# Build rule for target.
-example_shm1: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 example_shm1
-.PHONY : example_shm1
-
-# fast build rule for target.
-example_shm1/fast:
-	$(MAKE) -f CMakeFiles/example_shm1.dir/build.make CMakeFiles/example_shm1.dir/build
-.PHONY : example_shm1/fast
-
-#=============================================================================
-# Target rules for targets named example_quicksort
-
-# Build rule for target.
-example_quicksort: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 example_quicksort
-.PHONY : example_quicksort
-
-# fast build rule for target.
-example_quicksort/fast:
-	$(MAKE) -f CMakeFiles/example_quicksort.dir/build.make CMakeFiles/example_quicksort.dir/build
-.PHONY : example_quicksort/fast
-
-#=============================================================================
-# Target rules for targets named example_hashtable
-
-# Build rule for target.
-example_hashtable: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 example_hashtable
-.PHONY : example_hashtable
-
-# fast build rule for target.
-example_hashtable/fast:
-	$(MAKE) -f CMakeFiles/example_hashtable.dir/build.make CMakeFiles/example_hashtable.dir/build
-.PHONY : example_hashtable/fast
-
-#=============================================================================
-# Target rules for targets named example_list1
-
-# Build rule for target.
-example_list1: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 example_list1
-.PHONY : example_list1
-
-# fast build rule for target.
-example_list1/fast:
-	$(MAKE) -f CMakeFiles/example_list1.dir/build.make CMakeFiles/example_list1.dir/build
-.PHONY : example_list1/fast
-
-#=============================================================================
-# Target rules for targets named example_hashtable2
-
-# Build rule for target.
-example_hashtable2: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 example_hashtable2
-.PHONY : example_hashtable2
-
-# fast build rule for target.
-example_hashtable2/fast:
-	$(MAKE) -f CMakeFiles/example_hashtable2.dir/build.make CMakeFiles/example_hashtable2.dir/build
-.PHONY : example_hashtable2/fast
-
-#=============================================================================
-# Target rules for targets named example_socket1
-
-# Build rule for target.
-example_socket1: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 example_socket1
-.PHONY : example_socket1
-
-# fast build rule for target.
-example_socket1/fast:
-	$(MAKE) -f CMakeFiles/example_socket1.dir/build.make CMakeFiles/example_socket1.dir/build
-.PHONY : example_socket1/fast
-
-#=============================================================================
-# Target rules for targets named example_pthread1
-
-# Build rule for target.
-example_pthread1: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 example_pthread1
-.PHONY : example_pthread1
-
-# fast build rule for target.
-example_pthread1/fast:
-	$(MAKE) -f CMakeFiles/example_pthread1.dir/build.make CMakeFiles/example_pthread1.dir/build
-.PHONY : example_pthread1/fast
-
-#=============================================================================
-# Target rules for targets named example_sem1
-
-# Build rule for target.
-example_sem1: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 example_sem1
-.PHONY : example_sem1
-
-# fast build rule for target.
-example_sem1/fast:
-	$(MAKE) -f CMakeFiles/example_sem1.dir/build.make CMakeFiles/example_sem1.dir/build
-.PHONY : example_sem1/fast
-
-#=============================================================================
-# Target rules for targets named example_bitalgorithm
-
-# Build rule for target.
-example_bitalgorithm: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 example_bitalgorithm
-.PHONY : example_bitalgorithm
-
-# fast build rule for target.
-example_bitalgorithm/fast:
-	$(MAKE) -f CMakeFiles/example_bitalgorithm.dir/build.make CMakeFiles/example_bitalgorithm.dir/build
-.PHONY : example_bitalgorithm/fast
+TestBoodoMtServer/fast:
+	$(MAKE) -f CMakeFiles/TestBoodoMtServer.dir/build.make CMakeFiles/TestBoodoMtServer.dir/build
+.PHONY : TestBoodoMtServer/fast
 
 #=============================================================================
 # Target rules for targets named main
@@ -592,19 +137,6 @@ main/fast:
 .PHONY : main/fast
 
 #=============================================================================
-# Target rules for targets named example_pthread_cond1
-
-# Build rule for target.
-example_pthread_cond1: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 example_pthread_cond1
-.PHONY : example_pthread_cond1
-
-# fast build rule for target.
-example_pthread_cond1/fast:
-	$(MAKE) -f CMakeFiles/example_pthread_cond1.dir/build.make CMakeFiles/example_pthread_cond1.dir/build
-.PHONY : example_pthread_cond1/fast
-
-#=============================================================================
 # Target rules for targets named example_binary_tree
 
 # Build rule for target.
@@ -618,6 +150,266 @@ example_binary_tree/fast:
 .PHONY : example_binary_tree/fast
 
 #=============================================================================
+# Target rules for targets named example_bitalgorithm
+
+# Build rule for target.
+example_bitalgorithm: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 example_bitalgorithm
+.PHONY : example_bitalgorithm
+
+# fast build rule for target.
+example_bitalgorithm/fast:
+	$(MAKE) -f CMakeFiles/example_bitalgorithm.dir/build.make CMakeFiles/example_bitalgorithm.dir/build
+.PHONY : example_bitalgorithm/fast
+
+#=============================================================================
+# Target rules for targets named example_sem1
+
+# Build rule for target.
+example_sem1: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 example_sem1
+.PHONY : example_sem1
+
+# fast build rule for target.
+example_sem1/fast:
+	$(MAKE) -f CMakeFiles/example_sem1.dir/build.make CMakeFiles/example_sem1.dir/build
+.PHONY : example_sem1/fast
+
+#=============================================================================
+# Target rules for targets named example_pthread1
+
+# Build rule for target.
+example_pthread1: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 example_pthread1
+.PHONY : example_pthread1
+
+# fast build rule for target.
+example_pthread1/fast:
+	$(MAKE) -f CMakeFiles/example_pthread1.dir/build.make CMakeFiles/example_pthread1.dir/build
+.PHONY : example_pthread1/fast
+
+#=============================================================================
+# Target rules for targets named example_hashtable
+
+# Build rule for target.
+example_hashtable: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 example_hashtable
+.PHONY : example_hashtable
+
+# fast build rule for target.
+example_hashtable/fast:
+	$(MAKE) -f CMakeFiles/example_hashtable.dir/build.make CMakeFiles/example_hashtable.dir/build
+.PHONY : example_hashtable/fast
+
+#=============================================================================
+# Target rules for targets named example_quicksort
+
+# Build rule for target.
+example_quicksort: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 example_quicksort
+.PHONY : example_quicksort
+
+# fast build rule for target.
+example_quicksort/fast:
+	$(MAKE) -f CMakeFiles/example_quicksort.dir/build.make CMakeFiles/example_quicksort.dir/build
+.PHONY : example_quicksort/fast
+
+#=============================================================================
+# Target rules for targets named example_shm1
+
+# Build rule for target.
+example_shm1: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 example_shm1
+.PHONY : example_shm1
+
+# fast build rule for target.
+example_shm1/fast:
+	$(MAKE) -f CMakeFiles/example_shm1.dir/build.make CMakeFiles/example_shm1.dir/build
+.PHONY : example_shm1/fast
+
+#=============================================================================
+# Target rules for targets named example_hashtable2
+
+# Build rule for target.
+example_hashtable2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 example_hashtable2
+.PHONY : example_hashtable2
+
+# fast build rule for target.
+example_hashtable2/fast:
+	$(MAKE) -f CMakeFiles/example_hashtable2.dir/build.make CMakeFiles/example_hashtable2.dir/build
+.PHONY : example_hashtable2/fast
+
+#=============================================================================
+# Target rules for targets named example_fifo2
+
+# Build rule for target.
+example_fifo2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 example_fifo2
+.PHONY : example_fifo2
+
+# fast build rule for target.
+example_fifo2/fast:
+	$(MAKE) -f CMakeFiles/example_fifo2.dir/build.make CMakeFiles/example_fifo2.dir/build
+.PHONY : example_fifo2/fast
+
+#=============================================================================
+# Target rules for targets named example_digraph
+
+# Build rule for target.
+example_digraph: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 example_digraph
+.PHONY : example_digraph
+
+# fast build rule for target.
+example_digraph/fast:
+	$(MAKE) -f CMakeFiles/example_digraph.dir/build.make CMakeFiles/example_digraph.dir/build
+.PHONY : example_digraph/fast
+
+#=============================================================================
+# Target rules for targets named example_binary_tree2
+
+# Build rule for target.
+example_binary_tree2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 example_binary_tree2
+.PHONY : example_binary_tree2
+
+# fast build rule for target.
+example_binary_tree2/fast:
+	$(MAKE) -f CMakeFiles/example_binary_tree2.dir/build.make CMakeFiles/example_binary_tree2.dir/build
+.PHONY : example_binary_tree2/fast
+
+#=============================================================================
+# Target rules for targets named example_mmap1
+
+# Build rule for target.
+example_mmap1: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 example_mmap1
+.PHONY : example_mmap1
+
+# fast build rule for target.
+example_mmap1/fast:
+	$(MAKE) -f CMakeFiles/example_mmap1.dir/build.make CMakeFiles/example_mmap1.dir/build
+.PHONY : example_mmap1/fast
+
+#=============================================================================
+# Target rules for targets named example_heapsort
+
+# Build rule for target.
+example_heapsort: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 example_heapsort
+.PHONY : example_heapsort
+
+# fast build rule for target.
+example_heapsort/fast:
+	$(MAKE) -f CMakeFiles/example_heapsort.dir/build.make CMakeFiles/example_heapsort.dir/build
+.PHONY : example_heapsort/fast
+
+#=============================================================================
+# Target rules for targets named example_binary_tree_avl
+
+# Build rule for target.
+example_binary_tree_avl: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 example_binary_tree_avl
+.PHONY : example_binary_tree_avl
+
+# fast build rule for target.
+example_binary_tree_avl/fast:
+	$(MAKE) -f CMakeFiles/example_binary_tree_avl.dir/build.make CMakeFiles/example_binary_tree_avl.dir/build
+.PHONY : example_binary_tree_avl/fast
+
+#=============================================================================
+# Target rules for targets named example_unlockqueue
+
+# Build rule for target.
+example_unlockqueue: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 example_unlockqueue
+.PHONY : example_unlockqueue
+
+# fast build rule for target.
+example_unlockqueue/fast:
+	$(MAKE) -f CMakeFiles/example_unlockqueue.dir/build.make CMakeFiles/example_unlockqueue.dir/build
+.PHONY : example_unlockqueue/fast
+
+#=============================================================================
+# Target rules for targets named example_shm2
+
+# Build rule for target.
+example_shm2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 example_shm2
+.PHONY : example_shm2
+
+# fast build rule for target.
+example_shm2/fast:
+	$(MAKE) -f CMakeFiles/example_shm2.dir/build.make CMakeFiles/example_shm2.dir/build
+.PHONY : example_shm2/fast
+
+#=============================================================================
+# Target rules for targets named example_socket1
+
+# Build rule for target.
+example_socket1: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 example_socket1
+.PHONY : example_socket1
+
+# fast build rule for target.
+example_socket1/fast:
+	$(MAKE) -f CMakeFiles/example_socket1.dir/build.make CMakeFiles/example_socket1.dir/build
+.PHONY : example_socket1/fast
+
+#=============================================================================
+# Target rules for targets named example_jingqun
+
+# Build rule for target.
+example_jingqun: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 example_jingqun
+.PHONY : example_jingqun
+
+# fast build rule for target.
+example_jingqun/fast:
+	$(MAKE) -f CMakeFiles/example_jingqun.dir/build.make CMakeFiles/example_jingqun.dir/build
+.PHONY : example_jingqun/fast
+
+#=============================================================================
+# Target rules for targets named example_hashtable3
+
+# Build rule for target.
+example_hashtable3: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 example_hashtable3
+.PHONY : example_hashtable3
+
+# fast build rule for target.
+example_hashtable3/fast:
+	$(MAKE) -f CMakeFiles/example_hashtable3.dir/build.make CMakeFiles/example_hashtable3.dir/build
+.PHONY : example_hashtable3/fast
+
+#=============================================================================
+# Target rules for targets named example_binarysearch
+
+# Build rule for target.
+example_binarysearch: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 example_binarysearch
+.PHONY : example_binarysearch
+
+# fast build rule for target.
+example_binarysearch/fast:
+	$(MAKE) -f CMakeFiles/example_binarysearch.dir/build.make CMakeFiles/example_binarysearch.dir/build
+.PHONY : example_binarysearch/fast
+
+#=============================================================================
+# Target rules for targets named example_shm_hashtable1
+
+# Build rule for target.
+example_shm_hashtable1: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 example_shm_hashtable1
+.PHONY : example_shm_hashtable1
+
+# fast build rule for target.
+example_shm_hashtable1/fast:
+	$(MAKE) -f CMakeFiles/example_shm_hashtable1.dir/build.make CMakeFiles/example_shm_hashtable1.dir/build
+.PHONY : example_shm_hashtable1/fast
+
+#=============================================================================
 # Target rules for targets named example_binary_tree_adt
 
 # Build rule for target.
@@ -629,6 +421,331 @@ example_binary_tree_adt: cmake_check_build_system
 example_binary_tree_adt/fast:
 	$(MAKE) -f CMakeFiles/example_binary_tree_adt.dir/build.make CMakeFiles/example_binary_tree_adt.dir/build
 .PHONY : example_binary_tree_adt/fast
+
+#=============================================================================
+# Target rules for targets named example_thread_epoll1
+
+# Build rule for target.
+example_thread_epoll1: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 example_thread_epoll1
+.PHONY : example_thread_epoll1
+
+# fast build rule for target.
+example_thread_epoll1/fast:
+	$(MAKE) -f CMakeFiles/example_thread_epoll1.dir/build.make CMakeFiles/example_thread_epoll1.dir/build
+.PHONY : example_thread_epoll1/fast
+
+#=============================================================================
+# Target rules for targets named example_redis_test
+
+# Build rule for target.
+example_redis_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 example_redis_test
+.PHONY : example_redis_test
+
+# fast build rule for target.
+example_redis_test/fast:
+	$(MAKE) -f CMakeFiles/example_redis_test.dir/build.make CMakeFiles/example_redis_test.dir/build
+.PHONY : example_redis_test/fast
+
+#=============================================================================
+# Target rules for targets named example_heap
+
+# Build rule for target.
+example_heap: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 example_heap
+.PHONY : example_heap
+
+# fast build rule for target.
+example_heap/fast:
+	$(MAKE) -f CMakeFiles/example_heap.dir/build.make CMakeFiles/example_heap.dir/build
+.PHONY : example_heap/fast
+
+#=============================================================================
+# Target rules for targets named example_fifo1
+
+# Build rule for target.
+example_fifo1: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 example_fifo1
+.PHONY : example_fifo1
+
+# fast build rule for target.
+example_fifo1/fast:
+	$(MAKE) -f CMakeFiles/example_fifo1.dir/build.make CMakeFiles/example_fifo1.dir/build
+.PHONY : example_fifo1/fast
+
+#=============================================================================
+# Target rules for targets named example_shmqueue_test
+
+# Build rule for target.
+example_shmqueue_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 example_shmqueue_test
+.PHONY : example_shmqueue_test
+
+# fast build rule for target.
+example_shmqueue_test/fast:
+	$(MAKE) -f CMakeFiles/example_shmqueue_test.dir/build.make CMakeFiles/example_shmqueue_test.dir/build
+.PHONY : example_shmqueue_test/fast
+
+#=============================================================================
+# Target rules for targets named example_list1
+
+# Build rule for target.
+example_list1: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 example_list1
+.PHONY : example_list1
+
+# fast build rule for target.
+example_list1/fast:
+	$(MAKE) -f CMakeFiles/example_list1.dir/build.make CMakeFiles/example_list1.dir/build
+.PHONY : example_list1/fast
+
+#=============================================================================
+# Target rules for targets named example_d_heap
+
+# Build rule for target.
+example_d_heap: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 example_d_heap
+.PHONY : example_d_heap
+
+# fast build rule for target.
+example_d_heap/fast:
+	$(MAKE) -f CMakeFiles/example_d_heap.dir/build.make CMakeFiles/example_d_heap.dir/build
+.PHONY : example_d_heap/fast
+
+#=============================================================================
+# Target rules for targets named example_pthread_cond1
+
+# Build rule for target.
+example_pthread_cond1: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 example_pthread_cond1
+.PHONY : example_pthread_cond1
+
+# fast build rule for target.
+example_pthread_cond1/fast:
+	$(MAKE) -f CMakeFiles/example_pthread_cond1.dir/build.make CMakeFiles/example_pthread_cond1.dir/build
+.PHONY : example_pthread_cond1/fast
+
+#=============================================================================
+# Target rules for targets named example_mem_pool
+
+# Build rule for target.
+example_mem_pool: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 example_mem_pool
+.PHONY : example_mem_pool
+
+# fast build rule for target.
+example_mem_pool/fast:
+	$(MAKE) -f CMakeFiles/example_mem_pool.dir/build.make CMakeFiles/example_mem_pool.dir/build
+.PHONY : example_mem_pool/fast
+
+#=============================================================================
+# Target rules for targets named example_ftruncate
+
+# Build rule for target.
+example_ftruncate: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 example_ftruncate
+.PHONY : example_ftruncate
+
+# fast build rule for target.
+example_ftruncate/fast:
+	$(MAKE) -f CMakeFiles/example_ftruncate.dir/build.make CMakeFiles/example_ftruncate.dir/build
+.PHONY : example_ftruncate/fast
+
+#=============================================================================
+# Target rules for targets named example_test
+
+# Build rule for target.
+example_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 example_test
+.PHONY : example_test
+
+# fast build rule for target.
+example_test/fast:
+	$(MAKE) -f CMakeFiles/example_test.dir/build.make CMakeFiles/example_test.dir/build
+.PHONY : example_test/fast
+
+#=============================================================================
+# Target rules for targets named example_check_alot_server3
+
+# Build rule for target.
+example_check_alot_server3: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 example_check_alot_server3
+.PHONY : example_check_alot_server3
+
+# fast build rule for target.
+example_check_alot_server3/fast:
+	$(MAKE) -f CMakeFiles/example_check_alot_server3.dir/build.make CMakeFiles/example_check_alot_server3.dir/build
+.PHONY : example_check_alot_server3/fast
+
+#=============================================================================
+# Target rules for targets named example_morse
+
+# Build rule for target.
+example_morse: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 example_morse
+.PHONY : example_morse
+
+# fast build rule for target.
+example_morse/fast:
+	$(MAKE) -f CMakeFiles/example_morse.dir/build.make CMakeFiles/example_morse.dir/build
+.PHONY : example_morse/fast
+
+#=============================================================================
+# Target rules for targets named example_huffman
+
+# Build rule for target.
+example_huffman: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 example_huffman
+.PHONY : example_huffman
+
+# fast build rule for target.
+example_huffman/fast:
+	$(MAKE) -f CMakeFiles/example_huffman.dir/build.make CMakeFiles/example_huffman.dir/build
+.PHONY : example_huffman/fast
+
+#=============================================================================
+# Target rules for targets named example_shm_hashtable2
+
+# Build rule for target.
+example_shm_hashtable2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 example_shm_hashtable2
+.PHONY : example_shm_hashtable2
+
+# fast build rule for target.
+example_shm_hashtable2/fast:
+	$(MAKE) -f CMakeFiles/example_shm_hashtable2.dir/build.make CMakeFiles/example_shm_hashtable2.dir/build
+.PHONY : example_shm_hashtable2/fast
+
+#=============================================================================
+# Target rules for targets named example_graph
+
+# Build rule for target.
+example_graph: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 example_graph
+.PHONY : example_graph
+
+# fast build rule for target.
+example_graph/fast:
+	$(MAKE) -f CMakeFiles/example_graph.dir/build.make CMakeFiles/example_graph.dir/build
+.PHONY : example_graph/fast
+
+#=============================================================================
+# Target rules for targets named example_sort
+
+# Build rule for target.
+example_sort: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 example_sort
+.PHONY : example_sort
+
+# fast build rule for target.
+example_sort/fast:
+	$(MAKE) -f CMakeFiles/example_sort.dir/build.make CMakeFiles/example_sort.dir/build
+.PHONY : example_sort/fast
+
+#=============================================================================
+# Target rules for targets named example_sync
+
+# Build rule for target.
+example_sync: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 example_sync
+.PHONY : example_sync
+
+# fast build rule for target.
+example_sync/fast:
+	$(MAKE) -f CMakeFiles/example_sync.dir/build.make CMakeFiles/example_sync.dir/build
+.PHONY : example_sync/fast
+
+#=============================================================================
+# Target rules for targets named example_check_alot_server2
+
+# Build rule for target.
+example_check_alot_server2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 example_check_alot_server2
+.PHONY : example_check_alot_server2
+
+# fast build rule for target.
+example_check_alot_server2/fast:
+	$(MAKE) -f CMakeFiles/example_check_alot_server2.dir/build.make CMakeFiles/example_check_alot_server2.dir/build
+.PHONY : example_check_alot_server2/fast
+
+#=============================================================================
+# Target rules for targets named example_shm3
+
+# Build rule for target.
+example_shm3: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 example_shm3
+.PHONY : example_shm3
+
+# fast build rule for target.
+example_shm3/fast:
+	$(MAKE) -f CMakeFiles/example_shm3.dir/build.make CMakeFiles/example_shm3.dir/build
+.PHONY : example_shm3/fast
+
+#=============================================================================
+# Target rules for targets named example_thread_pool
+
+# Build rule for target.
+example_thread_pool: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 example_thread_pool
+.PHONY : example_thread_pool
+
+# fast build rule for target.
+example_thread_pool/fast:
+	$(MAKE) -f CMakeFiles/example_thread_pool.dir/build.make CMakeFiles/example_thread_pool.dir/build
+.PHONY : example_thread_pool/fast
+
+#=============================================================================
+# Target rules for targets named example_consistent_hash
+
+# Build rule for target.
+example_consistent_hash: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 example_consistent_hash
+.PHONY : example_consistent_hash
+
+# fast build rule for target.
+example_consistent_hash/fast:
+	$(MAKE) -f CMakeFiles/example_consistent_hash.dir/build.make CMakeFiles/example_consistent_hash.dir/build
+.PHONY : example_consistent_hash/fast
+
+#=============================================================================
+# Target rules for targets named example_boost_stacktrace
+
+# Build rule for target.
+example_boost_stacktrace: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 example_boost_stacktrace
+.PHONY : example_boost_stacktrace
+
+# fast build rule for target.
+example_boost_stacktrace/fast:
+	$(MAKE) -f CMakeFiles/example_boost_stacktrace.dir/build.make CMakeFiles/example_boost_stacktrace.dir/build
+.PHONY : example_boost_stacktrace/fast
+
+#=============================================================================
+# Target rules for targets named example_sync2
+
+# Build rule for target.
+example_sync2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 example_sync2
+.PHONY : example_sync2
+
+# fast build rule for target.
+example_sync2/fast:
+	$(MAKE) -f CMakeFiles/example_sync2.dir/build.make CMakeFiles/example_sync2.dir/build
+.PHONY : example_sync2/fast
+
+#=============================================================================
+# Target rules for targets named example_fallocate
+
+# Build rule for target.
+example_fallocate: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 example_fallocate
+.PHONY : example_fallocate
+
+# fast build rule for target.
+example_fallocate/fast:
+	$(MAKE) -f CMakeFiles/example_fallocate.dir/build.make CMakeFiles/example_fallocate.dir/build
+.PHONY : example_fallocate/fast
 
 coroutine.o: coroutine.cpp.o
 
@@ -819,6 +936,33 @@ example_bitalgorithm.cpp.s:
 	$(MAKE) -f CMakeFiles/example_bitalgorithm.dir/build.make CMakeFiles/example_bitalgorithm.dir/example_bitalgorithm.cpp.s
 .PHONY : example_bitalgorithm.cpp.s
 
+example_boost_stacktrace.o: example_boost_stacktrace.cpp.o
+
+.PHONY : example_boost_stacktrace.o
+
+# target to build an object file
+example_boost_stacktrace.cpp.o:
+	$(MAKE) -f CMakeFiles/example_boost_stacktrace.dir/build.make CMakeFiles/example_boost_stacktrace.dir/example_boost_stacktrace.cpp.o
+.PHONY : example_boost_stacktrace.cpp.o
+
+example_boost_stacktrace.i: example_boost_stacktrace.cpp.i
+
+.PHONY : example_boost_stacktrace.i
+
+# target to preprocess a source file
+example_boost_stacktrace.cpp.i:
+	$(MAKE) -f CMakeFiles/example_boost_stacktrace.dir/build.make CMakeFiles/example_boost_stacktrace.dir/example_boost_stacktrace.cpp.i
+.PHONY : example_boost_stacktrace.cpp.i
+
+example_boost_stacktrace.s: example_boost_stacktrace.cpp.s
+
+.PHONY : example_boost_stacktrace.s
+
+# target to generate assembly for a file
+example_boost_stacktrace.cpp.s:
+	$(MAKE) -f CMakeFiles/example_boost_stacktrace.dir/build.make CMakeFiles/example_boost_stacktrace.dir/example_boost_stacktrace.cpp.s
+.PHONY : example_boost_stacktrace.cpp.s
+
 example_check_alot_server2.o: example_check_alot_server2.cpp.o
 
 .PHONY : example_check_alot_server2.o
@@ -953,6 +1097,114 @@ example_digraph.s: example_digraph.cpp.s
 example_digraph.cpp.s:
 	$(MAKE) -f CMakeFiles/example_digraph.dir/build.make CMakeFiles/example_digraph.dir/example_digraph.cpp.s
 .PHONY : example_digraph.cpp.s
+
+example_fallocate.o: example_fallocate.cpp.o
+
+.PHONY : example_fallocate.o
+
+# target to build an object file
+example_fallocate.cpp.o:
+	$(MAKE) -f CMakeFiles/example_fallocate.dir/build.make CMakeFiles/example_fallocate.dir/example_fallocate.cpp.o
+.PHONY : example_fallocate.cpp.o
+
+example_fallocate.i: example_fallocate.cpp.i
+
+.PHONY : example_fallocate.i
+
+# target to preprocess a source file
+example_fallocate.cpp.i:
+	$(MAKE) -f CMakeFiles/example_fallocate.dir/build.make CMakeFiles/example_fallocate.dir/example_fallocate.cpp.i
+.PHONY : example_fallocate.cpp.i
+
+example_fallocate.s: example_fallocate.cpp.s
+
+.PHONY : example_fallocate.s
+
+# target to generate assembly for a file
+example_fallocate.cpp.s:
+	$(MAKE) -f CMakeFiles/example_fallocate.dir/build.make CMakeFiles/example_fallocate.dir/example_fallocate.cpp.s
+.PHONY : example_fallocate.cpp.s
+
+example_fifo1.o: example_fifo1.cpp.o
+
+.PHONY : example_fifo1.o
+
+# target to build an object file
+example_fifo1.cpp.o:
+	$(MAKE) -f CMakeFiles/example_fifo1.dir/build.make CMakeFiles/example_fifo1.dir/example_fifo1.cpp.o
+.PHONY : example_fifo1.cpp.o
+
+example_fifo1.i: example_fifo1.cpp.i
+
+.PHONY : example_fifo1.i
+
+# target to preprocess a source file
+example_fifo1.cpp.i:
+	$(MAKE) -f CMakeFiles/example_fifo1.dir/build.make CMakeFiles/example_fifo1.dir/example_fifo1.cpp.i
+.PHONY : example_fifo1.cpp.i
+
+example_fifo1.s: example_fifo1.cpp.s
+
+.PHONY : example_fifo1.s
+
+# target to generate assembly for a file
+example_fifo1.cpp.s:
+	$(MAKE) -f CMakeFiles/example_fifo1.dir/build.make CMakeFiles/example_fifo1.dir/example_fifo1.cpp.s
+.PHONY : example_fifo1.cpp.s
+
+example_fifo2.o: example_fifo2.cpp.o
+
+.PHONY : example_fifo2.o
+
+# target to build an object file
+example_fifo2.cpp.o:
+	$(MAKE) -f CMakeFiles/example_fifo2.dir/build.make CMakeFiles/example_fifo2.dir/example_fifo2.cpp.o
+.PHONY : example_fifo2.cpp.o
+
+example_fifo2.i: example_fifo2.cpp.i
+
+.PHONY : example_fifo2.i
+
+# target to preprocess a source file
+example_fifo2.cpp.i:
+	$(MAKE) -f CMakeFiles/example_fifo2.dir/build.make CMakeFiles/example_fifo2.dir/example_fifo2.cpp.i
+.PHONY : example_fifo2.cpp.i
+
+example_fifo2.s: example_fifo2.cpp.s
+
+.PHONY : example_fifo2.s
+
+# target to generate assembly for a file
+example_fifo2.cpp.s:
+	$(MAKE) -f CMakeFiles/example_fifo2.dir/build.make CMakeFiles/example_fifo2.dir/example_fifo2.cpp.s
+.PHONY : example_fifo2.cpp.s
+
+example_ftruncate.o: example_ftruncate.cpp.o
+
+.PHONY : example_ftruncate.o
+
+# target to build an object file
+example_ftruncate.cpp.o:
+	$(MAKE) -f CMakeFiles/example_ftruncate.dir/build.make CMakeFiles/example_ftruncate.dir/example_ftruncate.cpp.o
+.PHONY : example_ftruncate.cpp.o
+
+example_ftruncate.i: example_ftruncate.cpp.i
+
+.PHONY : example_ftruncate.i
+
+# target to preprocess a source file
+example_ftruncate.cpp.i:
+	$(MAKE) -f CMakeFiles/example_ftruncate.dir/build.make CMakeFiles/example_ftruncate.dir/example_ftruncate.cpp.i
+.PHONY : example_ftruncate.cpp.i
+
+example_ftruncate.s: example_ftruncate.cpp.s
+
+.PHONY : example_ftruncate.s
+
+# target to generate assembly for a file
+example_ftruncate.cpp.s:
+	$(MAKE) -f CMakeFiles/example_ftruncate.dir/build.make CMakeFiles/example_ftruncate.dir/example_ftruncate.cpp.s
+.PHONY : example_ftruncate.cpp.s
 
 example_graph.o: example_graph.cpp.o
 
@@ -1467,6 +1719,33 @@ example_shm2.cpp.s:
 	$(MAKE) -f CMakeFiles/example_shm2.dir/build.make CMakeFiles/example_shm2.dir/example_shm2.cpp.s
 .PHONY : example_shm2.cpp.s
 
+example_shm3.o: example_shm3.cpp.o
+
+.PHONY : example_shm3.o
+
+# target to build an object file
+example_shm3.cpp.o:
+	$(MAKE) -f CMakeFiles/example_shm3.dir/build.make CMakeFiles/example_shm3.dir/example_shm3.cpp.o
+.PHONY : example_shm3.cpp.o
+
+example_shm3.i: example_shm3.cpp.i
+
+.PHONY : example_shm3.i
+
+# target to preprocess a source file
+example_shm3.cpp.i:
+	$(MAKE) -f CMakeFiles/example_shm3.dir/build.make CMakeFiles/example_shm3.dir/example_shm3.cpp.i
+.PHONY : example_shm3.cpp.i
+
+example_shm3.s: example_shm3.cpp.s
+
+.PHONY : example_shm3.s
+
+# target to generate assembly for a file
+example_shm3.cpp.s:
+	$(MAKE) -f CMakeFiles/example_shm3.dir/build.make CMakeFiles/example_shm3.dir/example_shm3.cpp.s
+.PHONY : example_shm3.cpp.s
+
 example_shm_hashtable1.o: example_shm_hashtable1.cpp.o
 
 .PHONY : example_shm_hashtable1.o
@@ -1521,6 +1800,33 @@ example_shm_hashtable2.cpp.s:
 	$(MAKE) -f CMakeFiles/example_shm_hashtable2.dir/build.make CMakeFiles/example_shm_hashtable2.dir/example_shm_hashtable2.cpp.s
 .PHONY : example_shm_hashtable2.cpp.s
 
+example_shmqueue_test.o: example_shmqueue_test.cpp.o
+
+.PHONY : example_shmqueue_test.o
+
+# target to build an object file
+example_shmqueue_test.cpp.o:
+	$(MAKE) -f CMakeFiles/example_shmqueue_test.dir/build.make CMakeFiles/example_shmqueue_test.dir/example_shmqueue_test.cpp.o
+.PHONY : example_shmqueue_test.cpp.o
+
+example_shmqueue_test.i: example_shmqueue_test.cpp.i
+
+.PHONY : example_shmqueue_test.i
+
+# target to preprocess a source file
+example_shmqueue_test.cpp.i:
+	$(MAKE) -f CMakeFiles/example_shmqueue_test.dir/build.make CMakeFiles/example_shmqueue_test.dir/example_shmqueue_test.cpp.i
+.PHONY : example_shmqueue_test.cpp.i
+
+example_shmqueue_test.s: example_shmqueue_test.cpp.s
+
+.PHONY : example_shmqueue_test.s
+
+# target to generate assembly for a file
+example_shmqueue_test.cpp.s:
+	$(MAKE) -f CMakeFiles/example_shmqueue_test.dir/build.make CMakeFiles/example_shmqueue_test.dir/example_shmqueue_test.cpp.s
+.PHONY : example_shmqueue_test.cpp.s
+
 example_socket1.o: example_socket1.cpp.o
 
 .PHONY : example_socket1.o
@@ -1574,6 +1880,60 @@ example_sort.s: example_sort.cpp.s
 example_sort.cpp.s:
 	$(MAKE) -f CMakeFiles/example_sort.dir/build.make CMakeFiles/example_sort.dir/example_sort.cpp.s
 .PHONY : example_sort.cpp.s
+
+example_sync.o: example_sync.cpp.o
+
+.PHONY : example_sync.o
+
+# target to build an object file
+example_sync.cpp.o:
+	$(MAKE) -f CMakeFiles/example_sync.dir/build.make CMakeFiles/example_sync.dir/example_sync.cpp.o
+.PHONY : example_sync.cpp.o
+
+example_sync.i: example_sync.cpp.i
+
+.PHONY : example_sync.i
+
+# target to preprocess a source file
+example_sync.cpp.i:
+	$(MAKE) -f CMakeFiles/example_sync.dir/build.make CMakeFiles/example_sync.dir/example_sync.cpp.i
+.PHONY : example_sync.cpp.i
+
+example_sync.s: example_sync.cpp.s
+
+.PHONY : example_sync.s
+
+# target to generate assembly for a file
+example_sync.cpp.s:
+	$(MAKE) -f CMakeFiles/example_sync.dir/build.make CMakeFiles/example_sync.dir/example_sync.cpp.s
+.PHONY : example_sync.cpp.s
+
+example_sync2.o: example_sync2.cpp.o
+
+.PHONY : example_sync2.o
+
+# target to build an object file
+example_sync2.cpp.o:
+	$(MAKE) -f CMakeFiles/example_sync2.dir/build.make CMakeFiles/example_sync2.dir/example_sync2.cpp.o
+.PHONY : example_sync2.cpp.o
+
+example_sync2.i: example_sync2.cpp.i
+
+.PHONY : example_sync2.i
+
+# target to preprocess a source file
+example_sync2.cpp.i:
+	$(MAKE) -f CMakeFiles/example_sync2.dir/build.make CMakeFiles/example_sync2.dir/example_sync2.cpp.i
+.PHONY : example_sync2.cpp.i
+
+example_sync2.s: example_sync2.cpp.s
+
+.PHONY : example_sync2.s
+
+# target to generate assembly for a file
+example_sync2.cpp.s:
+	$(MAKE) -f CMakeFiles/example_sync2.dir/build.make CMakeFiles/example_sync2.dir/example_sync2.cpp.s
+.PHONY : example_sync2.cpp.s
 
 example_test.o: example_test.cpp.o
 
@@ -1710,13 +2070,40 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+shmqueue/shm_queue.o: shmqueue/shm_queue.c.o
+
+.PHONY : shmqueue/shm_queue.o
+
+# target to build an object file
+shmqueue/shm_queue.c.o:
+	$(MAKE) -f CMakeFiles/example_shmqueue_test.dir/build.make CMakeFiles/example_shmqueue_test.dir/shmqueue/shm_queue.c.o
+.PHONY : shmqueue/shm_queue.c.o
+
+shmqueue/shm_queue.i: shmqueue/shm_queue.c.i
+
+.PHONY : shmqueue/shm_queue.i
+
+# target to preprocess a source file
+shmqueue/shm_queue.c.i:
+	$(MAKE) -f CMakeFiles/example_shmqueue_test.dir/build.make CMakeFiles/example_shmqueue_test.dir/shmqueue/shm_queue.c.i
+.PHONY : shmqueue/shm_queue.c.i
+
+shmqueue/shm_queue.s: shmqueue/shm_queue.c.s
+
+.PHONY : shmqueue/shm_queue.s
+
+# target to generate assembly for a file
+shmqueue/shm_queue.c.s:
+	$(MAKE) -f CMakeFiles/example_shmqueue_test.dir/build.make CMakeFiles/example_shmqueue_test.dir/shmqueue/shm_queue.c.s
+.PHONY : shmqueue/shm_queue.c.s
+
 t.o: t.cpp.o
 
 .PHONY : t.o
 
 # target to build an object file
 t.cpp.o:
-	$(MAKE) -f CMakeFiles/t.dir/build.make CMakeFiles/t.dir/t.cpp.o
+	$(MAKE) -f CMakeFiles/TestBoodoMtServer.dir/build.make CMakeFiles/TestBoodoMtServer.dir/t.cpp.o
 .PHONY : t.cpp.o
 
 t.i: t.cpp.i
@@ -1725,7 +2112,7 @@ t.i: t.cpp.i
 
 # target to preprocess a source file
 t.cpp.i:
-	$(MAKE) -f CMakeFiles/t.dir/build.make CMakeFiles/t.dir/t.cpp.i
+	$(MAKE) -f CMakeFiles/TestBoodoMtServer.dir/build.make CMakeFiles/TestBoodoMtServer.dir/t.cpp.i
 .PHONY : t.cpp.i
 
 t.s: t.cpp.s
@@ -1734,7 +2121,7 @@ t.s: t.cpp.s
 
 # target to generate assembly for a file
 t.cpp.s:
-	$(MAKE) -f CMakeFiles/t.dir/build.make CMakeFiles/t.dir/t.cpp.s
+	$(MAKE) -f CMakeFiles/TestBoodoMtServer.dir/build.make CMakeFiles/TestBoodoMtServer.dir/t.cpp.s
 .PHONY : t.cpp.s
 
 # Help Target
@@ -1743,48 +2130,57 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... edit_cache"
-	@echo "... example_check_alot_server2"
-	@echo "... t"
-	@echo "... example_graph"
-	@echo "... example_huffman"
-	@echo "... example_morse"
-	@echo "... example_consistent_hash"
-	@echo "... example_check_alot_server3"
-	@echo "... example_test"
-	@echo "... example_sort"
-	@echo "... example_mem_pool"
-	@echo "... example_d_heap"
-	@echo "... example_heap"
-	@echo "... example_thread_pool"
-	@echo "... example_redis_test"
-	@echo "... example_binary_tree_avl"
-	@echo "... example_thread_epoll1"
-	@echo "... example_shm_hashtable1"
-	@echo "... example_binarysearch"
-	@echo "... example_hashtable3"
-	@echo "... example_jingqun"
-	@echo "... example_shm2"
-	@echo "... example_unlockqueue"
-	@echo "... example_heapsort"
-	@echo "... example_binary_tree2"
-	@echo "... example_digraph"
-	@echo "... example_mmap1"
-	@echo "... example_shm_hashtable2"
-	@echo "... example_shm1"
 	@echo "... rebuild_cache"
-	@echo "... example_quicksort"
-	@echo "... example_hashtable"
-	@echo "... example_list1"
-	@echo "... example_hashtable2"
-	@echo "... example_socket1"
-	@echo "... example_pthread1"
-	@echo "... example_sem1"
-	@echo "... example_bitalgorithm"
+	@echo "... TestBoodoMtServer"
 	@echo "... main"
-	@echo "... example_pthread_cond1"
 	@echo "... example_binary_tree"
+	@echo "... example_bitalgorithm"
+	@echo "... example_sem1"
+	@echo "... example_pthread1"
+	@echo "... example_hashtable"
+	@echo "... example_quicksort"
+	@echo "... example_shm1"
+	@echo "... example_hashtable2"
+	@echo "... edit_cache"
+	@echo "... example_fifo2"
+	@echo "... example_digraph"
+	@echo "... example_binary_tree2"
+	@echo "... example_mmap1"
+	@echo "... example_heapsort"
+	@echo "... example_binary_tree_avl"
+	@echo "... example_unlockqueue"
+	@echo "... example_shm2"
+	@echo "... example_socket1"
+	@echo "... example_jingqun"
+	@echo "... example_hashtable3"
+	@echo "... example_binarysearch"
+	@echo "... example_shm_hashtable1"
 	@echo "... example_binary_tree_adt"
+	@echo "... example_thread_epoll1"
+	@echo "... example_redis_test"
+	@echo "... example_heap"
+	@echo "... example_fifo1"
+	@echo "... example_shmqueue_test"
+	@echo "... example_list1"
+	@echo "... example_d_heap"
+	@echo "... example_pthread_cond1"
+	@echo "... example_mem_pool"
+	@echo "... example_ftruncate"
+	@echo "... example_test"
+	@echo "... example_check_alot_server3"
+	@echo "... example_morse"
+	@echo "... example_huffman"
+	@echo "... example_shm_hashtable2"
+	@echo "... example_graph"
+	@echo "... example_sort"
+	@echo "... example_sync"
+	@echo "... example_check_alot_server2"
+	@echo "... example_shm3"
+	@echo "... example_thread_pool"
+	@echo "... example_consistent_hash"
+	@echo "... example_boost_stacktrace"
+	@echo "... example_sync2"
+	@echo "... example_fallocate"
 	@echo "... coroutine.o"
 	@echo "... coroutine.i"
 	@echo "... coroutine.s"
@@ -1806,6 +2202,9 @@ help:
 	@echo "... example_bitalgorithm.o"
 	@echo "... example_bitalgorithm.i"
 	@echo "... example_bitalgorithm.s"
+	@echo "... example_boost_stacktrace.o"
+	@echo "... example_boost_stacktrace.i"
+	@echo "... example_boost_stacktrace.s"
 	@echo "... example_check_alot_server2.o"
 	@echo "... example_check_alot_server2.i"
 	@echo "... example_check_alot_server2.s"
@@ -1821,6 +2220,18 @@ help:
 	@echo "... example_digraph.o"
 	@echo "... example_digraph.i"
 	@echo "... example_digraph.s"
+	@echo "... example_fallocate.o"
+	@echo "... example_fallocate.i"
+	@echo "... example_fallocate.s"
+	@echo "... example_fifo1.o"
+	@echo "... example_fifo1.i"
+	@echo "... example_fifo1.s"
+	@echo "... example_fifo2.o"
+	@echo "... example_fifo2.i"
+	@echo "... example_fifo2.s"
+	@echo "... example_ftruncate.o"
+	@echo "... example_ftruncate.i"
+	@echo "... example_ftruncate.s"
 	@echo "... example_graph.o"
 	@echo "... example_graph.i"
 	@echo "... example_graph.s"
@@ -1878,18 +2289,30 @@ help:
 	@echo "... example_shm2.o"
 	@echo "... example_shm2.i"
 	@echo "... example_shm2.s"
+	@echo "... example_shm3.o"
+	@echo "... example_shm3.i"
+	@echo "... example_shm3.s"
 	@echo "... example_shm_hashtable1.o"
 	@echo "... example_shm_hashtable1.i"
 	@echo "... example_shm_hashtable1.s"
 	@echo "... example_shm_hashtable2.o"
 	@echo "... example_shm_hashtable2.i"
 	@echo "... example_shm_hashtable2.s"
+	@echo "... example_shmqueue_test.o"
+	@echo "... example_shmqueue_test.i"
+	@echo "... example_shmqueue_test.s"
 	@echo "... example_socket1.o"
 	@echo "... example_socket1.i"
 	@echo "... example_socket1.s"
 	@echo "... example_sort.o"
 	@echo "... example_sort.i"
 	@echo "... example_sort.s"
+	@echo "... example_sync.o"
+	@echo "... example_sync.i"
+	@echo "... example_sync.s"
+	@echo "... example_sync2.o"
+	@echo "... example_sync2.i"
+	@echo "... example_sync2.s"
 	@echo "... example_test.o"
 	@echo "... example_test.i"
 	@echo "... example_test.s"
@@ -1905,6 +2328,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... shmqueue/shm_queue.o"
+	@echo "... shmqueue/shm_queue.i"
+	@echo "... shmqueue/shm_queue.s"
 	@echo "... t.o"
 	@echo "... t.i"
 	@echo "... t.s"

@@ -13,201 +13,158 @@
 #include <cstdio>
 #include <string>
 
-#ifndef BACKTRACE_MAX_FRAME_NUMBER
-#define BACKTRACE_MAX_FRAME_NUMBER 100
-#endif
+#include <string.h>
+#include <iostream>
+using namespace std;
 
-#ifndef USING_WIN_DBG_ENG_COM
-#define USING_WIN_DBG_ENG_COM 1
-#endif
-#ifndef USING_WIN_DBG_HELP
-#define USING_WIN_DBG_HELP 1
-#endif
-#ifndef USING_GNU_UNWIND
-#define USING_GNU_UNWIND 1
-#endif
-#ifndef USING_GNU_EXECINFO
-#define USING_GNU_EXECINFO 1
-#endif
 
-#ifdef __GLIBCXX__
-#include <cxxabi.h>
-#define USING_LIBSTDCXX_ABI 1
-#elif defined(_LIBCPP_ABI_VERSION)
-#include <cxxabi.h>
-#define USING_LIBCXX_ABI 1
-#endif
+struct A{
+    A() {
+        m_a = 0;
+        memset(m_v1, 0, sizeof(m_v1));
+        memset(m_v2, 0, sizeof(m_v2));
+        memset(m_v3, 0, sizeof(m_v3));
+        memset(m_v4, 0, sizeof(m_v4));
+        memset(m_v5, 0, sizeof(m_v5));
+        memset(m_v6, 0, sizeof(m_v6));
+        memset(m_v7, 0, sizeof(m_v7));
+        memset(m_v8, 0, sizeof(m_v8));
+        memset(m_v9, 0, sizeof(m_v9));
+        memset(m_v10, 0, sizeof(m_v10));
+        memset(m_v11, 0, sizeof(m_v11));
+        memset(m_v12, 0, sizeof(m_v12));
+        memset(m_v13, 0, sizeof(m_v13));
+        memset(m_v14, 0, sizeof(m_v14));
+        memset(m_v15, 0, sizeof(m_v15));
+        memset(m_v16, 0, sizeof(m_v16));
+        memset(m_v17, 0, sizeof(m_v17));
+        memset(m_v18, 0, sizeof(m_v18));
+        memset(m_v19, 0, sizeof(m_v19));
+        memset(m_v19, 0, sizeof(m_v19));
+        memset(m_v20, 0, sizeof(m_v20));
+        memset(m_v21, 0, sizeof(m_v21));
 
-#if defined(__cplusplus) && __cplusplus >= 201103L
-#define USING_CXX11_NOEXCEPT noexcept
-#else
-#define USING_CXX11_NOEXCEPT
-#endif
-
-#ifdef USING_LIBUNWIND
-
-#include <libunwind.h>
-
-void print_trace() {
-    unw_context_t unw_ctx;
-    unw_cursor_t unw_cur;
-    unw_proc_info_t unw_proc;
-    unw_getcontext(&unw_ctx);
-    unw_init_local(&unw_cur, &unw_ctx);
-
-    char func_name_cache[256];
-    unw_word_t unw_offset;
-    int frame_id = 0;
-#if defined(USING_LIBSTDCXX_ABI) || defined(USING_LIBCXX_ABI)
-    int cxx_abi_status;
-    char* realfunc_name;
-#endif
-    do {
-        unw_get_proc_name(&unw_cur, func_name_cache, sizeof(func_name_cache), &unw_offset);
-        unw_get_proc_info(&unw_cur, &unw_proc);
-        const char* func_name = func_name_cache;
-        printf("func:%s\n", func_name);
-#if defined(USING_LIBSTDCXX_ABI) || defined(USING_LIBCXX_ABI)
-        realfunc_name = abi::__cxa_demangle(func_name_cache, 0, 0, &cxx_abi_status);
-        if (NULL != realfunc_name) {
-            func_name = realfunc_name;
-        }
-#endif
-        printf("Frame #%02d: (%s+0x%lx) [0x%lx]\n", frame_id, func_name, unw_offset, unw_proc.start_ip);
-
-#if defined(USING_LIBSTDCXX_ABI) || defined(USING_LIBCXX_ABI)
-        if (NULL != realfunc_name) {
-            free(realfunc_name);
-            realfunc_name = NULL;
-        }
-#endif
-
-        int next_res = unw_step(&unw_cur);
-
-        if (0 == next_res) {
-            puts("All frames.");
-            break;
-        }
-
-        if (UNW_EBADFRAME == next_res) {
-            puts("Stop with UNW_EBADFRAME");
-            break;
-        }
-
-        if (UNW_ESTOPUNWIND == next_res) {
-            puts("Stop with UNW_ESTOPUNWIND");
-            break;
-        }
-
-        if (UNW_EINVALIDIP == next_res) {
-            puts("Stop with UNW_EINVALIDIP");
-            break;
-        }
-
-        if (UNW_ENOINFO == next_res) {
-            puts("Stop with UNW_ENOINFO");
-            break;
-        }
-        ++ frame_id;
-    } while(true);
-}
-
-#else
-
-#if defined(_WIN32) && (!defined(__GNUC__) || (!defined(USING_GNU_UNWIND) || !USING_GNU_UNWIND))
-
-#include <Windows.h>
-
-#if defined(USING_WIN_DBG_HELP) && USING_WIN_DBG_HELP
-#include <DbgHelp.h>
-#endif
-
-#if defined(USING_WIN_DBG_ENG_COM) && USING_WIN_DBG_ENG_COM
-#include <DbgEng.h>
-#endif
-
-#ifdef _MSC_VER
-    #if defined(USING_WIN_DBG_ENG_COM) && USING_WIN_DBG_ENG_COM
-        #pragma comment(lib, "ole32.lib")
-        #pragma comment(lib, "dbgeng.lib")
-    #endif
-    #if defined(USING_WIN_DBG_HELP) && USING_WIN_DBG_HELP
-        #pragma comment(lib, "dbghelp.lib")
-    #endif
-#endif
-
-#if defined(USING_WIN_DBG_ENG_COM) && USING_WIN_DBG_ENG_COM
-    #ifdef __CRT_UUID_DECL // for __MINGW32__
-        __CRT_UUID_DECL(IDebugClient,0x27fe5639,0x8407,0x4f47,0x83,0x64,0xee,0x11,0x8f,0xb0,0x8a,0xc8)
-        __CRT_UUID_DECL(IDebugControl,0x5182e668,0x105e,0x416e,0xad,0x92,0x24,0xef,0x80,0x04,0x24,0xba)
-        __CRT_UUID_DECL(IDebugSymbols,0x8c31e98c,0x983a,0x48a5,0x90,0x16,0x6f,0xe5,0xd6,0x67,0xa9,0x50)
-    #elif defined(DEFINE_GUID) && !defined(BOOST_MSVC)
-        DEFINE_GUID(IID_IDebugClient,0x27fe5639,0x8407,0x4f47,0x83,0x64,0xee,0x11,0x8f,0xb0,0x8a,0xc8);
-        DEFINE_GUID(IID_IDebugControl,0x5182e668,0x105e,0x416e,0xad,0x92,0x24,0xef,0x80,0x04,0x24,0xba);
-        DEFINE_GUID(IID_IDebugSymbols,0x8c31e98c,0x983a,0x48a5,0x90,0x16,0x6f,0xe5,0xd6,0x67,0xa9,0x50);
-    #endif
-
-template <class T>
-class print_trace_com_holder {
-private:
-    T* holder_;
-
-private:
-    print_trace_com_holder(const print_trace_com_holder&);
-    print_trace_com_holder& operator=(const print_trace_com_holder&);
-
-public:
-    print_trace_com_holder() USING_CXX11_NOEXCEPT : holder_(NULL) {}
-    ~print_trace_com_holder() USING_CXX11_NOEXCEPT {
-        if (holder_) {
-            holder_->Release();
-        }
     }
+    int m_a;
+    char m_v1[50];
+    char m_v2[50];
+    char m_v3[50];
+    char m_v4[50];
+    char m_v5[50];
+    char m_v6[50];
+    char m_v7[200];
+    char m_v8[200];
+    char m_v9[200];
+    char m_v10[200];
+    char m_v11[200];
+    char m_v12[1000];
+    char m_v13[1000];
+    char m_v14[30];
+    char m_v15[30];
+    char m_v16[30];
+    char m_v17[30];
+    char m_v18[30];
+    char m_v19[20];
+    char m_v20[20];
+    char m_v21[20];
+    char m_v22[20];
+    char m_v23[20];
+    char m_v24[20];
+    char m_v25[20];
+    char m_v26[20];
+    char m_v27[100];
+    char m_v28[100];
+    char m_v29[100];
+    char m_v30[100];
+    char m_v31[100];
 
-    T* operator->() const USING_CXX11_NOEXCEPT {
-        return holder_;
-    }
-
-    PVOID* to_pvoid_ptr()  USING_CXX11_NOEXCEPT {
-        return reinterpret_cast<PVOID*>(&holder_);
-    }
-
-    bool is_inited() const USING_CXX11_NOEXCEPT {
-        return !!holder_;
-    }
-};
-#endif
-
-void print_trace() USING_CXX11_NOEXCEPT {
-    void         * stack[ BACKTRACE_MAX_FRAME_NUMBER ];
-    unsigned short frames;
-
-    frames = CaptureStackBackTrace( 0, BACKTRACE_MAX_FRAME_NUMBER, stack, NULL );
-
-#if !defined(_MSC_VER)
-    for(unsigned short i = 0; i < frames; i++ ) {
-        printf( "Frame %02i: () [0x%p]\n", i, stack[ i ]);
-    }
-
-#else // MSVC required flag: /DEBUG /Zi
-    #if defined(USING_WIN_DBG_HELP) && USING_WIN_DBG_HELP
-    SYMBOL_INFO  * symbol;
-    HANDLE         process;
-    DWORD64        displacement = 0;
-    process = GetCurrentProcess();
-
-    // SymSetOptions(SYMOPT_UNDNAME | SYMOPT_DEFERRED_LOADS | SYMOPT_LOAD_LINES);
-    SymInitialize( process, NULL, TRUE );
-
-    symbol               = ( SYMBOL_INFO * )malloc(sizeof( SYMBOL_INFO ) + (MAX_SYM_NAME + 1) * sizeof(TCHAR));
-    symbol->MaxNameLen   = MAX_SYM_NAME;
-    symbol->SizeOfStruct = sizeof( SYMBOL_INFO );
-
-    for(unsigned short i = 0; i < frames; i++ ) {
-        if(SymFromAddr( process, reinterpret_cast<ULONG64>(stack[i]), &displacement, symbol )) {
-            printf( "Frame %02i: (%s) [0x%p]\n", i, &symbol->Name[0], symbol->Address );
-        } else {
-            printf( "Frame %02i: () [0x%p]\n", i, stack[i]);
+    bool operator<(const A& obj) {
+        if (m_a != obj.m_a) {
+            return m_a > obj.m_a;
+        }
+        int nv1 = memcmp(m_v1, obj.m_v1, sizeof(m_v1));
+        if (nv1!=0) {
+            return nv1>0;
+        }
+        int nv2 = memcmp(m_v2, obj.m_v2, sizeof(m_v2));
+        if (nv2!=0) {
+            return nv2>0;
+        }
+        int nv3 = memcmp(m_v3, obj.m_v3, sizeof(m_v3));
+        if (nv3!=0) {
+            return nv3>0;
+        }
+        int nv4 = memcmp(m_v4, obj.m_v4, sizeof(m_v4));
+        if (nv4!=0) {
+            return nv4>0;
+        }
+        int nv5 = memcmp(m_v5, obj.m_v5, sizeof(m_v5));
+        if (nv5!=0) {
+            return nv5>0;
+        }
+        int nv6 = memcmp(m_v6, obj.m_v6, sizeof(m_v6));
+        if (nv6!=0) {
+            return nv6>0;
+        }
+        int nv7 = memcmp(m_v7, obj.m_v7, sizeof(m_v7));
+        if (nv7!=0) {
+            return nv7>0;
+        }
+        int nv8 = memcmp(m_v8, obj.m_v8, sizeof(m_v8));
+        if (nv8!=0) {
+            return nv8>0;
+        }
+        int nv9 = memcmp(m_v9, obj.m_v9, sizeof(m_v9));
+        if (nv9!=0) {
+            return nv9>0;
+        }
+        int nv10 = memcmp(m_v10, obj.m_v10, sizeof(m_v10));
+        if (nv10!=0) {
+            return nv10>0;
+        }
+        int nv11 = memcmp(m_v11, obj.m_v11, sizeof(m_v11));
+        if (nv11!=0) {
+            return nv11>0;
+        }
+        int nv12 = memcmp(m_v12, obj.m_v12, sizeof(m_v12));
+        if (nv12!=0) {
+            return nv12>0;
+        }
+        int nv13 = memcmp(m_v13, obj.m_v13, sizeof(m_v13));
+        if (nv13!=0) {
+            return nv13>0;
+        }
+        int nv14 = memcmp(m_v14, obj.m_v14, sizeof(m_v14));
+        if (nv14!=0) {
+            return nv14>0;
+        }
+        int nv15 = memcmp(m_v15, obj.m_v15, sizeof(m_v15));
+        if (nv15!=0) {
+            return nv15>0;
+        }
+        int nv16 = memcmp(m_v16, obj.m_v16, sizeof(m_v16));
+        if (nv16!=0) {
+            return nv16>0;
+        }
+        int nv17 = memcmp(m_v17, obj.m_v17, sizeof(m_v17));
+        if (nv17!=0) {
+            return nv17>0;
+        }
+        int nv18 = memcmp(m_v18, obj.m_v18, sizeof(m_v18));
+        if (nv18!=0) {
+            return nv18>0;
+        }
+        int nv19 = memcmp(m_v19, obj.m_v19, sizeof(m_v19));
+        if (nv19!=0) {
+            return nv19>0;
+        }
+        int nv20 = memcmp(m_v20, obj.m_v20, sizeof(m_v20));
+        if (nv20!=0) {
+            return nv20>0;
+        }
+        int nv21 = memcmp(m_v21, obj.m_v21, sizeof(m_v21));
+        if (nv21!=0) {
+            return nv21>0;
         }
     }
 
@@ -533,44 +490,12 @@ public:
     }
 };
 
-class functor3 {
-public:
-    static void func3(int times) {
-        if (times & 0x01) {
-            func3(times - 1);
-        } else {
-            functor2 f;
-            f.func2(times - 1);
-        }
-    }
+
+
+
+struct B{
+    struct {int a;} BA;
 };
-
-struct functor4 {
-    void operator()(int times) {
-        if (times & 0x01) {
-            (*this)(times - 1);
-        } else {
-            functor3::func3(times - 1);
-        }
-    }
-};
-
-static void func5(int times) {
-    if (times & 0x01) {
-        func5(times - 1);
-    } else {
-        functor4 f;
-        f(times - 1);
-    }
-}
-
-void func6(int times) {
-    if (times & 0x01) {
-        func6(times - 1);
-    } else {
-        func5(times - 1);
-    }
-}
 
 static void func8(){
     print_trace();
@@ -584,13 +509,16 @@ void func7()
 
 
 int main (int argc, char* argv[]) {
-//    int times = 15;
-//    if (argc > 1) {
-//        times = atoi(argv[1]);
-//    }
-//    func6(times);
+    A a;
+    A b;
+    char v2[4000] = {0};
+    char v1[4000] = {0};
+    time_t time1 = time(NULL);
 
-    func7();
-    //do_backtrace();
-    return 0;
+    for (int i=1; i<100001000; i++) {
+        //bool l = memcpy(v1, v2, 4000);
+        bool l = a<b;
+    }
+    time_t time2 = time(NULL);
+    cout << time2 - time1 << endl;
 }

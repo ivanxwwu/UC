@@ -1,1 +1,1 @@
-/usr/bin/c++   -fpermissive -g   CMakeFiles/example_socket1.dir/example_socket1.cpp.o  -o example_socket1 -lpthread -Wl,-Bstatic -lhiredis -lev -Wl,-Bdynamic 
+/usr/bin/c++   -fpermissive -g   CMakeFiles/example_socket1.dir/example_socket1.cpp.o  -o example_socket1 -lpthread -Wl,-Bstatic -lhiredis -lev -Wl,-Bdynamic -lrt 

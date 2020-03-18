@@ -1,1 +1,1 @@
-/usr/bin/c++   -fpermissive -g   CMakeFiles/example_consistent_hash.dir/example_consistent_hash.cpp.o  -o example_consistent_hash -lpthread -Wl,-Bstatic -lhiredis -lev -Wl,-Bdynamic 
+/usr/bin/c++   -fpermissive -g   CMakeFiles/example_consistent_hash.dir/example_consistent_hash.cpp.o  -o example_consistent_hash -lpthread -Wl,-Bstatic -lhiredis -lev -Wl,-Bdynamic -lrt 

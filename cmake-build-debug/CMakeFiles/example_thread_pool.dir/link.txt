@@ -1,1 +1,1 @@
-/usr/bin/c++   -fpermissive -g   CMakeFiles/example_thread_pool.dir/example_thread_pool.cpp.o  -o example_thread_pool -lpthread -Wl,-Bstatic -lhiredis -lev -Wl,-Bdynamic 
+/usr/bin/c++   -fpermissive -g   CMakeFiles/example_thread_pool.dir/example_thread_pool.cpp.o  -o example_thread_pool -lpthread -Wl,-Bstatic -lhiredis -lev -Wl,-Bdynamic -lrt 

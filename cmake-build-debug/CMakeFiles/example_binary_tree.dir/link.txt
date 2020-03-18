@@ -1,1 +1,1 @@
-/usr/bin/c++   -fpermissive -g   CMakeFiles/example_binary_tree.dir/example_binary_tree.cpp.o  -o example_binary_tree -lpthread -Wl,-Bstatic -lhiredis -lev -Wl,-Bdynamic 
+/usr/bin/c++   -fpermissive -g   CMakeFiles/example_binary_tree.dir/example_binary_tree.cpp.o  -o example_binary_tree -lpthread -Wl,-Bstatic -lhiredis -lev -Wl,-Bdynamic -lrt 

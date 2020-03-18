@@ -1,1 +1,1 @@
-/usr/bin/c++   -fpermissive -g   CMakeFiles/example_heap.dir/example_heap.cpp.o  -o example_heap -lpthread -Wl,-Bstatic -lhiredis -lev -Wl,-Bdynamic 
+/usr/bin/c++   -fpermissive -g   CMakeFiles/example_heap.dir/example_heap.cpp.o  -o example_heap -lpthread -Wl,-Bstatic -lhiredis -lev -Wl,-Bdynamic -lrt 
