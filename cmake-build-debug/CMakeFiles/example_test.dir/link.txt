@@ -1,1 +1,0 @@
-/usr/bin/c++   -fpermissive -g   CMakeFiles/example_test.dir/example_test.cpp.o  -o example_test -lpthread -Wl,-Bstatic -lhiredis -lev -Wl,-Bdynamic -lrt 

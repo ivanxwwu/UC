@@ -1,1 +1,0 @@
-/usr/bin/c++   -fpermissive -g   CMakeFiles/example_binary_tree_avl.dir/example_binary_tree_avl.cpp.o  -o example_binary_tree_avl -lpthread -Wl,-Bstatic -lhiredis -lev -Wl,-Bdynamic -lrt 

@@ -1,1 +1,0 @@
-/usr/bin/c++   -fpermissive -g   CMakeFiles/example_mem_pool.dir/example_mem_pool.cpp.o  -o example_mem_pool -lpthread -Wl,-Bstatic -lhiredis -lev -Wl,-Bdynamic -lrt 

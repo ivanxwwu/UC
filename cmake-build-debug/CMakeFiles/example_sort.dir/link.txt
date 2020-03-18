@@ -1,1 +1,0 @@
-/usr/bin/c++   -fpermissive -g   CMakeFiles/example_sort.dir/example_sort.cpp.o  -o example_sort -lpthread -Wl,-Bstatic -lhiredis -lev -Wl,-Bdynamic -lrt 

@@ -1,1 +1,0 @@
-/usr/bin/c++   -fpermissive -g   CMakeFiles/t.dir/t.cpp.o  -o t 

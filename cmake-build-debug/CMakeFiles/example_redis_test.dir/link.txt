@@ -1,1 +1,0 @@
-/usr/bin/c++   -fpermissive -g   CMakeFiles/example_redis_test.dir/example_redis_test.cpp.o  -o example_redis_test -lpthread -Wl,-Bstatic -lhiredis -lev -Wl,-Bdynamic -lrt 

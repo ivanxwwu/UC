@@ -59,6 +59,8 @@ add_example_target(fifo1)
 add_example_target(fifo2)
 add_example_target(fallocate)
 add_example_target(ftruncate)
+add_example_target(fsync)
+add_example_target(aio)
 #####
 add_executable("example_check_alot_server2" "example_check_alot_server2.cpp" "coroutine.cpp")
 add_executable("main" "main.cpp")

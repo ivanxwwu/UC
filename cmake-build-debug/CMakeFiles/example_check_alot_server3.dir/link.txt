@@ -1,1 +1,0 @@
-/usr/bin/c++   -fpermissive -g   CMakeFiles/example_check_alot_server3.dir/example_check_alot_server3.cpp.o  -o example_check_alot_server3 -lpthread -Wl,-Bstatic -lhiredis -lev -Wl,-Bdynamic -lrt 

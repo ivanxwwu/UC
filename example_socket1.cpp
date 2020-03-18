@@ -37,8 +37,9 @@ void worker(int listenfd){
         printf("client ip:%s, port:%d\n", inet_ntoa(client.sin_addr), ntohs(client.sin_port));
         char data[4096] = {0};
         set_fd_nonblock(clientfd);
-        read(clientfd, data, sizeof(data));
+        int len = read(clientfd, data, sizeof(data));
         printf("data:%s", data);
+        write(clientfd, data, len);
         close(clientfd);
     }
 }
