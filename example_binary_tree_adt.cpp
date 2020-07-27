@@ -1,6 +1,15 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+
+/*
+（1）若左子树不空，则左子树上所有结点的值均小于它的根结点的值；
+（2）若右子树不空，则右子树上所有结点的值均大于它的根结点的值；
+（3）左、右子树也分别为二叉排序树；
+（4）没有键值相等的结点。
+
+ */
+
 typedef struct TreeNode *Position, *PSearchTree;
 
 typedef struct TreeNode{

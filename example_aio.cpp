@@ -2,6 +2,7 @@
 // Created by root on 19-12-5.
 //
 
+//http://blog.sina.com.cn/s/blog_6028e2630100y0d1.html
 #include <aio.h>
 #include "stdio.h"
 #include "unistd.h"
@@ -10,8 +11,8 @@
 #include "fcntl.h"
 #include "errno.h"
 
-
 #define BUFFER_SIZE 1024
+
 
 int MAX_LIST = 2;
 
@@ -26,8 +27,6 @@ void example1() {
     {
         perror("1.txt");
     }
-
-
 
     //将rd结构体清空
     bzero(&rd,sizeof(rd));
@@ -54,7 +53,6 @@ void example1() {
     while(aio_error(&rd) == EINPROGRESS)
     {
         printf("第%d次\n",++couter);
-
     }
     //获取异步读返回值
     ret = aio_return(&rd);
